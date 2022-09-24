@@ -1,0 +1,1212 @@
+The system is: Darwin - 20.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_66097/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_66097.dir/build.make CMakeFiles/cmTC_66097.dir/build
+Building C object CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o
+/usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCCompilerABI.c
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.6.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.5 (clang-1205.0.22.11) default target x86_64-apple-darwin20.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_66097
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66097.dir/link.txt --verbose=1
+/usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -o cmTC_66097 
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.6.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_66097 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:02 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_66097/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_66097.dir/build.make CMakeFiles/cmTC_66097.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple clang version 12.0.5 (clang-1205.0.22.11)]
+  ignore line: [Target: x86_64-apple-darwin20.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.6.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdebug-compilation-dir /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.5 (clang-1205.0.22.11) default target x86_64-apple-darwin20.6.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_66097]
+  ignore line: [/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66097.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -o cmTC_66097 ]
+  ignore line: [Apple clang version 12.0.5 (clang-1205.0.22.11)]
+  ignore line: [Target: x86_64-apple-darwin20.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.6.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_66097 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.6.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_66097] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_66097.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc68f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc68f.dir/build.make CMakeFiles/cmTC_bc68f.dir/build
+Building CXX object CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.6.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.5 (clang-1205.0.22.11) default target x86_64-apple-darwin20.6.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1
+ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include
+ /Library/Developer/CommandLineTools/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_bc68f
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc68f.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bc68f 
+Apple clang version 12.0.5 (clang-1205.0.22.11)
+Target: x86_64-apple-darwin20.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.6.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_bc68f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:02 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1]
+    add: [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include]
+    add: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+    add: [/Library/Developer/CommandLineTools/usr/include]
+  end of search list found
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include]
+  collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+  implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc68f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bc68f.dir/build.make CMakeFiles/cmTC_bc68f.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Apple clang version 12.0.5 (clang-1205.0.22.11)]
+  ignore line: [Target: x86_64-apple-darwin20.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx11.6.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -fno-rounding-math -munwind-tables -target-sdk-version=12.1 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -debugger-tuning=lldb -target-linker-version 650.9 -v -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5 -dependency-file CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -fdebug-compilation-dir /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.5 (clang-1205.0.22.11) default target x86_64-apple-darwin20.6.0]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+  ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_bc68f]
+  ignore line: [/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc68f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_bc68f ]
+  ignore line: [Apple clang version 12.0.5 (clang-1205.0.22.11)]
+  ignore line: [Target: x86_64-apple-darwin20.6.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 11.6.0 12.1 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -o cmTC_bc68f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [11.6.0] ==> ignore
+    arg [12.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bc68f] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_bc68f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/lib]
+  implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/System/Library/Frameworks]
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17b31/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_17b31.dir/build.make CMakeFiles/cmTC_17b31.dir/build
+Building C object CMakeFiles/cmTC_17b31.dir/CheckIncludeFile.c.o
+/usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_17b31.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_17b31.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_17b31.dir/CheckIncludeFile.c.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_17b31
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17b31.dir/link.txt --verbose=1
+/usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_17b31.dir/CheckIncludeFile.c.o -o cmTC_17b31 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3f484/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3f484.dir/build.make CMakeFiles/cmTC_3f484.dir/build
+Building C object CMakeFiles/cmTC_3f484.dir/src.c.o
+/usr/bin/clang -DCMAKE_HAVE_LIBC_PTHREAD  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_3f484.dir/src.c.o -MF CMakeFiles/cmTC_3f484.dir/src.c.o.d -o CMakeFiles/cmTC_3f484.dir/src.c.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3f484
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f484.dir/link.txt --verbose=1
+/usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3f484.dir/src.c.o -o cmTC_3f484 
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining the gflags namespace passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6626/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6626.dir/build.make CMakeFiles/cmTC_c6626.dir/build
+Building CXX object CMakeFiles/cmTC_c6626.dir/DetermineGflagsNamespace.cxx.o
+/usr/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_GFLAGS_NAMESPACE=gflags -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_c6626.dir/DetermineGflagsNamespace.cxx.o -MF CMakeFiles/cmTC_c6626.dir/DetermineGflagsNamespace.cxx.o.d -o CMakeFiles/cmTC_c6626.dir/DetermineGflagsNamespace.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/DetermineGflagsNamespace.cxx
+Linking CXX executable cmTC_c6626
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6626.dir/link.txt --verbose=1
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6626.dir/DetermineGflagsNamespace.cxx.o -o cmTC_c6626  -Wl,-rpath,/usr/local/lib /usr/local/lib/libgflags.2.2.2.dylib 
+
+
+
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_89715/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_89715.dir/build.make CMakeFiles/cmTC_89715.dir/build
+Building CXX object CMakeFiles/cmTC_89715.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_89715.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_89715.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_89715.dir/CheckSymbolExists.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_89715
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89715.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_89715.dir/CheckSymbolExists.cxx.o -o cmTC_89715 
+
+
+File /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_GetIP exist passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35794/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_35794.dir/build.make CMakeFiles/cmTC_35794.dir/build
+Building CXX object CMakeFiles/cmTC_35794.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_35794.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_35794.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_35794.dir/CheckSymbolExists.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_35794
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35794.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_35794.dir/CheckSymbolExists.cxx.o -o cmTC_35794 
+
+
+File /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_GetIP
+  return ((int*)(&_Unwind_GetIP))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f5b82/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f5b82.dir/build.make CMakeFiles/cmTC_f5b82.dir/build
+Building CXX object CMakeFiles/cmTC_f5b82.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_f5b82.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_f5b82.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_f5b82.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_f5b82
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5b82.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f5b82.dir/CheckIncludeFile.cxx.o -o cmTC_f5b82 
+
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12f9a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_12f9a.dir/build.make CMakeFiles/cmTC_12f9a.dir/build
+Building CXX object CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_12f9a
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12f9a.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_12f9a.dir/CheckIncludeFile.cxx.o -o cmTC_12f9a 
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_70072/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70072.dir/build.make CMakeFiles/cmTC_70072.dir/build
+Building CXX object CMakeFiles/cmTC_70072.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_70072.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_70072.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_70072.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_70072
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70072.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_70072.dir/CheckIncludeFile.cxx.o -o cmTC_70072 
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2a002/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2a002.dir/build.make CMakeFiles/cmTC_2a002.dir/build
+Building CXX object CMakeFiles/cmTC_2a002.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_2a002.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_2a002.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_2a002.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2a002
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a002.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2a002.dir/CheckIncludeFile.cxx.o -o cmTC_2a002 
+
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_077e6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_077e6.dir/build.make CMakeFiles/cmTC_077e6.dir/build
+Building CXX object CMakeFiles/cmTC_077e6.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_077e6.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_077e6.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_077e6.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_077e6
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_077e6.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_077e6.dir/CheckIncludeFile.cxx.o -o cmTC_077e6 
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9cc85/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9cc85.dir/build.make CMakeFiles/cmTC_9cc85.dir/build
+Building CXX object CMakeFiles/cmTC_9cc85.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_9cc85.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_9cc85.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_9cc85.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9cc85
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cc85.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9cc85.dir/CheckIncludeFile.cxx.o -o cmTC_9cc85 
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_734ab/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_734ab.dir/build.make CMakeFiles/cmTC_734ab.dir/build
+Building CXX object CMakeFiles/cmTC_734ab.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_734ab.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_734ab.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_734ab.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_734ab
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_734ab.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_734ab.dir/CheckIncludeFile.cxx.o -o cmTC_734ab 
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_73e97/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_73e97.dir/build.make CMakeFiles/cmTC_73e97.dir/build
+Building CXX object CMakeFiles/cmTC_73e97.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_73e97.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_73e97.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_73e97.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_73e97
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e97.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_73e97.dir/CheckIncludeFile.cxx.o -o cmTC_73e97 
+
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d37f2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d37f2.dir/build.make CMakeFiles/cmTC_d37f2.dir/build
+Building CXX object CMakeFiles/cmTC_d37f2.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_d37f2.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_d37f2.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_d37f2.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_d37f2
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d37f2.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d37f2.dir/CheckIncludeFile.cxx.o -o cmTC_d37f2 
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60bd2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_60bd2.dir/build.make CMakeFiles/cmTC_60bd2.dir/build
+Building CXX object CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_60bd2
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bd2.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_60bd2.dir/CheckIncludeFile.cxx.o -o cmTC_60bd2 
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_90258/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_90258.dir/build.make CMakeFiles/cmTC_90258.dir/build
+Building CXX object CMakeFiles/cmTC_90258.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_90258.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_90258.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_90258.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_90258
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90258.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_90258.dir/CheckIncludeFile.cxx.o -o cmTC_90258 
+
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4eb81/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4eb81.dir/build.make CMakeFiles/cmTC_4eb81.dir/build
+Building CXX object CMakeFiles/cmTC_4eb81.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_4eb81.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_4eb81.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_4eb81.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_4eb81
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4eb81.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4eb81.dir/CheckIncludeFile.cxx.o -o cmTC_4eb81 
+
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_19be1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_19be1.dir/build.make CMakeFiles/cmTC_19be1.dir/build
+Building CXX object CMakeFiles/cmTC_19be1.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_19be1.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_19be1.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_19be1.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_19be1
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19be1.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_19be1.dir/CheckIncludeFile.cxx.o -o cmTC_19be1 
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60136/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_60136.dir/build.make CMakeFiles/cmTC_60136.dir/build
+Building CXX object CMakeFiles/cmTC_60136.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_60136.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_60136.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_60136.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_60136
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60136.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_60136.dir/CheckIncludeFile.cxx.o -o cmTC_60136 
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_af1cf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_af1cf.dir/build.make CMakeFiles/cmTC_af1cf.dir/build
+Building CXX object CMakeFiles/cmTC_af1cf.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_af1cf.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_af1cf.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_af1cf.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_af1cf
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af1cf.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_af1cf.dir/CheckIncludeFile.cxx.o -o cmTC_af1cf 
+
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d9126/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d9126.dir/build.make CMakeFiles/cmTC_d9126.dir/build
+Building CXX object CMakeFiles/cmTC_d9126.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_d9126.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_d9126.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_d9126.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ext/hash_map:215:5: warning: Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map> [-W#warnings]
+#   warning Use of the header <ext/hash_map> is deprecated.  Migrate to <unordered_map>
+    ^
+1 warning generated.
+Linking CXX executable cmTC_d9126
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9126.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d9126.dir/CheckIncludeFile.cxx.o -o cmTC_d9126 
+
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d88da/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d88da.dir/build.make CMakeFiles/cmTC_d88da.dir/build
+Building CXX object CMakeFiles/cmTC_d88da.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_d88da.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_d88da.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_d88da.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/ext/hash_set:204:5: warning: Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set> [-W#warnings]
+#   warning Use of the header <ext/hash_set> is deprecated.  Migrate to <unordered_set>
+    ^
+1 warning generated.
+Linking CXX executable cmTC_d88da
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d88da.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d88da.dir/CheckIncludeFile.cxx.o -o cmTC_d88da 
+
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_29931/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_29931.dir/build.make CMakeFiles/cmTC_29931.dir/build
+Building CXX object CMakeFiles/cmTC_29931.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_29931.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_29931.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_29931.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_29931
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29931.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_29931.dir/CheckIncludeFile.cxx.o -o cmTC_29931 
+
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ca892/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ca892.dir/build.make CMakeFiles/cmTC_ca892.dir/build
+Building CXX object CMakeFiles/cmTC_ca892.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_ca892.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_ca892.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_ca892.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ca892
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca892.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ca892.dir/CheckIncludeFile.cxx.o -o cmTC_ca892 
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3fd5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b3fd5.dir/build.make CMakeFiles/cmTC_b3fd5.dir/build
+Building CXX object CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b3fd5
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3fd5.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b3fd5.dir/CheckIncludeFile.cxx.o -o cmTC_b3fd5 
+
+
+
+Determining size of mode_t passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13577/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13577.dir/build.make CMakeFiles/cmTC_13577.dir/build
+Building CXX object CMakeFiles/cmTC_13577.dir/HAVE_MODE_T.cpp.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_13577.dir/HAVE_MODE_T.cpp.o -MF CMakeFiles/cmTC_13577.dir/HAVE_MODE_T.cpp.o.d -o CMakeFiles/cmTC_13577.dir/HAVE_MODE_T.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE_MODE_T.cpp
+Linking CXX executable cmTC_13577
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13577.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_13577.dir/HAVE_MODE_T.cpp.o -o cmTC_13577 
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f056f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f056f.dir/build.make CMakeFiles/cmTC_f056f.dir/build
+Building CXX object CMakeFiles/cmTC_f056f.dir/HAVE_SSIZE_T.cpp.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_f056f.dir/HAVE_SSIZE_T.cpp.o -MF CMakeFiles/cmTC_f056f.dir/HAVE_SSIZE_T.cpp.o.d -o CMakeFiles/cmTC_f056f.dir/HAVE_SSIZE_T.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE_SSIZE_T.cpp
+Linking CXX executable cmTC_f056f
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f056f.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f056f.dir/HAVE_SSIZE_T.cpp.o -o cmTC_f056f 
+
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_701c6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_701c6.dir/build.make CMakeFiles/cmTC_701c6.dir/build
+Building CXX object CMakeFiles/cmTC_701c6.dir/HAVE_U_INT16_T.cpp.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_701c6.dir/HAVE_U_INT16_T.cpp.o -MF CMakeFiles/cmTC_701c6.dir/HAVE_U_INT16_T.cpp.o.d -o CMakeFiles/cmTC_701c6.dir/HAVE_U_INT16_T.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.cpp
+Linking CXX executable cmTC_701c6
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_701c6.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_701c6.dir/HAVE_U_INT16_T.cpp.o -o cmTC_701c6 
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d95dd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d95dd.dir/build.make CMakeFiles/cmTC_d95dd.dir/build
+Building CXX object CMakeFiles/cmTC_d95dd.dir/HAVE_UINT16_T.cpp.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_d95dd.dir/HAVE_UINT16_T.cpp.o -MF CMakeFiles/cmTC_d95dd.dir/HAVE_UINT16_T.cpp.o.d -o CMakeFiles/cmTC_d95dd.dir/HAVE_UINT16_T.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.cpp
+Linking CXX executable cmTC_d95dd
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d95dd.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d95dd.dir/HAVE_UINT16_T.cpp.o -o cmTC_d95dd 
+
+
+
+Determining if the function dladdr exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f8cb5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f8cb5.dir/build.make CMakeFiles/cmTC_f8cb5.dir/build
+Building C object CMakeFiles/cmTC_f8cb5.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=dladdr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_f8cb5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_f8cb5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_f8cb5.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8cb5
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8cb5.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=dladdr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f8cb5.dir/CheckFunctionExists.c.o -o cmTC_f8cb5 
+
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d937/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d937.dir/build.make CMakeFiles/cmTC_1d937.dir/build
+Building C object CMakeFiles/cmTC_1d937.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=fcntl -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_1d937.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_1d937.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_1d937.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1d937
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d937.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=fcntl -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1d937.dir/CheckFunctionExists.c.o -o cmTC_1d937 
+
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3dd46/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3dd46.dir/build.make CMakeFiles/cmTC_3dd46.dir/build
+Building C object CMakeFiles/cmTC_3dd46.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pread -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_3dd46.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3dd46.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3dd46.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3dd46
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3dd46.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=pread -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3dd46.dir/CheckFunctionExists.c.o -o cmTC_3dd46 
+
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9a14a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9a14a.dir/build.make CMakeFiles/cmTC_9a14a.dir/build
+Building C object CMakeFiles/cmTC_9a14a.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pwrite -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_9a14a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_9a14a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_9a14a.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9a14a
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a14a.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=pwrite -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9a14a.dir/CheckFunctionExists.c.o -o cmTC_9a14a 
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ce6f9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ce6f9.dir/build.make CMakeFiles/cmTC_ce6f9.dir/build
+Building C object CMakeFiles/cmTC_ce6f9.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_ce6f9.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ce6f9.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ce6f9.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce6f9
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce6f9.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=sigaction -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ce6f9.dir/CheckFunctionExists.c.o -o cmTC_ce6f9 
+
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_122c6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_122c6.dir/build.make CMakeFiles/cmTC_122c6.dir/build
+Building C object CMakeFiles/cmTC_122c6.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=sigaltstack -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_122c6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_122c6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_122c6.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_122c6
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_122c6.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=sigaltstack -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_122c6.dir/CheckFunctionExists.c.o -o cmTC_122c6 
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_16529/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_16529.dir/build.make CMakeFiles/cmTC_16529.dir/build
+Building CXX object CMakeFiles/cmTC_16529.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_16529.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_16529.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_16529.dir/CheckSymbolExists.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_16529
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16529.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_16529.dir/CheckSymbolExists.cxx.o -o cmTC_16529 
+
+
+File /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace_symbols exist passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a2981/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a2981.dir/build.make CMakeFiles/cmTC_a2981.dir/build
+Building CXX object CMakeFiles/cmTC_a2981.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a2981.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_a2981.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_a2981.dir/CheckSymbolExists.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_a2981
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2981.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a2981.dir/CheckSymbolExists.cxx.o -o cmTC_a2981 
+
+
+File /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace_symbols
+  return ((int*)(&backtrace_symbols))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3b883/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3b883.dir/build.make CMakeFiles/cmTC_3b883.dir/build
+Building CXX object CMakeFiles/cmTC_3b883.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_NO_DEPRECATED  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE   -Wdeprecated -std=gnu++17 -MD -MT CMakeFiles/cmTC_3b883.dir/src.cxx.o -MF CMakeFiles/cmTC_3b883.dir/src.cxx.o.d -o CMakeFiles/cmTC_3b883.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3b883
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b883.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3b883.dir/src.cxx.o -o cmTC_3b883 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3814f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3814f.dir/build.make CMakeFiles/cmTC_3814f.dir/build
+Building CXX object CMakeFiles/cmTC_3814f.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_NO_UNNAMED_TYPE_TEMPLATE_ARGS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE   -Wunnamed-type-template-args -std=gnu++17 -MD -MT CMakeFiles/cmTC_3814f.dir/src.cxx.o -MF CMakeFiles/cmTC_3814f.dir/src.cxx.o.d -o CMakeFiles/cmTC_3814f.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3814f
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3814f.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3814f.dir/src.cxx.o -o cmTC_3814f 
+
+
+Source file was:
+int main() { return 0; }
+Determining if the pthread_threadid_np exist passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b5bb/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2b5bb.dir/build.make CMakeFiles/cmTC_2b5bb.dir/build
+Building CXX object CMakeFiles/cmTC_2b5bb.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_2b5bb.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_2b5bb.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_2b5bb.dir/CheckSymbolExists.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_2b5bb
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b5bb.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2b5bb.dir/CheckSymbolExists.cxx.o -o cmTC_2b5bb 
+
+
+File /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_threadid_np
+  return ((int*)(&pthread_threadid_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_76aaf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_76aaf.dir/build.make CMakeFiles/cmTC_76aaf.dir/build
+Building CXX object CMakeFiles/cmTC_76aaf.dir/CheckSymbolExists.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_76aaf.dir/CheckSymbolExists.cxx.o -MF CMakeFiles/cmTC_76aaf.dir/CheckSymbolExists.cxx.o.d -o CMakeFiles/cmTC_76aaf.dir/CheckSymbolExists.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_76aaf
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76aaf.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_76aaf.dir/CheckSymbolExists.cxx.o -o cmTC_76aaf 
+
+
+File /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cstdio>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37b8c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_37b8c.dir/build.make CMakeFiles/cmTC_37b8c.dir/build
+Building CXX object CMakeFiles/cmTC_37b8c.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___ATTRIBUTE__  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_37b8c.dir/src.cxx.o -MF CMakeFiles/cmTC_37b8c.dir/src.cxx.o.d -o CMakeFiles/cmTC_37b8c.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_37b8c
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37b8c.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_37b8c.dir/src.cxx.o -o cmTC_37b8c 
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1629/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b1629.dir/build.make CMakeFiles/cmTC_b1629.dir/build
+Building CXX object CMakeFiles/cmTC_b1629.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_b1629.dir/src.cxx.o -MF CMakeFiles/cmTC_b1629.dir/src.cxx.o.d -o CMakeFiles/cmTC_b1629.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b1629
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1629.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b1629.dir/src.cxx.o -o cmTC_b1629 
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_47197/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_47197.dir/build.make CMakeFiles/cmTC_47197.dir/build
+Building CXX object CMakeFiles/cmTC_47197.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_47197.dir/src.cxx.o -MF CMakeFiles/cmTC_47197.dir/src.cxx.o.d -o CMakeFiles/cmTC_47197.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_47197
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47197.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_47197.dir/src.cxx.o -o cmTC_47197 
+
+
+Source file was:
+
+#include <cstdlib>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_07531/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_07531.dir/build.make CMakeFiles/cmTC_07531.dir/build
+Building CXX object CMakeFiles/cmTC_07531.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___BUILTIN_EXPECT  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_07531.dir/src.cxx.o -MF CMakeFiles/cmTC_07531.dir/src.cxx.o.d -o CMakeFiles/cmTC_07531.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_07531
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07531.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_07531.dir/src.cxx.o -o cmTC_07531 
+
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C++ SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_636e1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_636e1.dir/build.make CMakeFiles/cmTC_636e1.dir/build
+Building CXX object CMakeFiles/cmTC_636e1.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___SYNC_VAL_COMPARE_AND_SWAP  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_636e1.dir/src.cxx.o -MF CMakeFiles/cmTC_636e1.dir/src.cxx.o.d -o CMakeFiles/cmTC_636e1.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_636e1
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_636e1.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_636e1.dir/src.cxx.o -o cmTC_636e1 
+
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_70dc3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_70dc3.dir/build.make CMakeFiles/cmTC_70dc3.dir/build
+Building CXX object CMakeFiles/cmTC_70dc3.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_RWLOCK  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_70dc3.dir/src.cxx.o -MF CMakeFiles/cmTC_70dc3.dir/src.cxx.o.d -o CMakeFiles/cmTC_70dc3.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_70dc3
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70dc3.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_70dc3.dir/src.cxx.o -o cmTC_70dc3 
+
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+  
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f7ee0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f7ee0.dir/build.make CMakeFiles/cmTC_f7ee0.dir/build
+Building CXX object CMakeFiles/cmTC_f7ee0.dir/src.cxx.o
+/usr/bin/clang++ -DSTL_STD_NAMESPACE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_f7ee0.dir/src.cxx.o -MF CMakeFiles/cmTC_f7ee0.dir/src.cxx.o.d -o CMakeFiles/cmTC_f7ee0.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f7ee0
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7ee0.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f7ee0.dir/src.cxx.o -o cmTC_f7ee0 
+
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_20c1a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_20c1a.dir/build.make CMakeFiles/cmTC_20c1a.dir/build
+Building CXX object CMakeFiles/cmTC_20c1a.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_USING_OPERATOR  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_20c1a.dir/src.cxx.o -MF CMakeFiles/cmTC_20c1a.dir/src.cxx.o.d -o CMakeFiles/cmTC_20c1a.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_20c1a
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20c1a.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_20c1a.dir/src.cxx.o -o cmTC_20c1a 
+
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11f4e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_11f4e.dir/build.make CMakeFiles/cmTC_11f4e.dir/build
+Building CXX object CMakeFiles/cmTC_11f4e.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_NAMESPACES  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_11f4e.dir/src.cxx.o -MF CMakeFiles/cmTC_11f4e.dir/src.cxx.o.d -o CMakeFiles/cmTC_11f4e.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11f4e
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11f4e.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_11f4e.dir/src.cxx.o -o cmTC_11f4e 
+
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_57962/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_57962.dir/build.make CMakeFiles/cmTC_57962.dir/build
+Building CXX object CMakeFiles/cmTC_57962.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_GCC_TLS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_57962.dir/src.cxx.o -MF CMakeFiles/cmTC_57962.dir/src.cxx.o.d -o CMakeFiles/cmTC_57962.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_57962
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57962.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_57962.dir/src.cxx.o -o cmTC_57962 
+
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_00056/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_00056.dir/build.make CMakeFiles/cmTC_00056.dir/build
+Building CXX object CMakeFiles/cmTC_00056.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_CXX11_TLS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_00056.dir/src.cxx.o -MF CMakeFiles/cmTC_00056.dir/src.cxx.o.d -o CMakeFiles/cmTC_00056.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_00056
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00056.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_00056.dir/src.cxx.o -o cmTC_00056 
+
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_abc1e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_abc1e.dir/build.make CMakeFiles/cmTC_abc1e.dir/build
+Building CXX object CMakeFiles/cmTC_abc1e.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_ALIGNED_STORAGE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_abc1e.dir/src.cxx.o -MF CMakeFiles/cmTC_abc1e.dir/src.cxx.o.d -o CMakeFiles/cmTC_abc1e.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_abc1e
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abc1e.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_abc1e.dir/src.cxx.o -o cmTC_abc1e 
+
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_ATOMIC succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7535/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d7535.dir/build.make CMakeFiles/cmTC_d7535.dir/build
+Building CXX object CMakeFiles/cmTC_d7535.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_CXX11_ATOMIC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_d7535.dir/src.cxx.o -MF CMakeFiles/cmTC_d7535.dir/src.cxx.o.d -o CMakeFiles/cmTC_d7535.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d7535
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7535.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d7535.dir/src.cxx.o -o cmTC_d7535 
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> i;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CONSTEXPR succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d5f69/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d5f69.dir/build.make CMakeFiles/cmTC_d5f69.dir/build
+Building CXX object CMakeFiles/cmTC_d5f69.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_CXX11_CONSTEXPR  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_d5f69.dir/src.cxx.o -MF CMakeFiles/cmTC_d5f69.dir/src.cxx.o.d -o CMakeFiles/cmTC_d5f69.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d5f69
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5f69.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d5f69.dir/src.cxx.o -o cmTC_d5f69 
+
+
+Source file was:
+
+constexpr int x = 0;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_CHRONO succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dc68a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_dc68a.dir/build.make CMakeFiles/cmTC_dc68a.dir/build
+Building CXX object CMakeFiles/cmTC_dc68a.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_CXX11_CHRONO  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_dc68a.dir/src.cxx.o -MF CMakeFiles/cmTC_dc68a.dir/src.cxx.o.d -o CMakeFiles/cmTC_dc68a.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_dc68a
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc68a.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_dc68a.dir/src.cxx.o -o cmTC_dc68a 
+
+
+Source file was:
+
+#include <chrono>
+std::chrono::seconds s;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_NULLPTR_T succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e633f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e633f.dir/build.make CMakeFiles/cmTC_e633f.dir/build
+Building CXX object CMakeFiles/cmTC_e633f.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_CXX11_NULLPTR_T  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_e633f.dir/src.cxx.o -MF CMakeFiles/cmTC_e633f.dir/src.cxx.o.d -o CMakeFiles/cmTC_e633f.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e633f
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e633f.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e633f.dir/src.cxx.o -o cmTC_e633f 
+
+
+Source file was:
+
+#include <cstddef>
+void foo(std::nullptr_t) {}
+int main(void) { foo(nullptr); }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cb97f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cb97f.dir/build.make CMakeFiles/cmTC_cb97f.dir/build
+Building CXX object CMakeFiles/cmTC_cb97f.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_LOCALTIME_R  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_cb97f.dir/src.cxx.o -MF CMakeFiles/cmTC_cb97f.dir/src.cxx.o.d -o CMakeFiles/cmTC_cb97f.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cb97f
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb97f.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_cb97f.dir/src.cxx.o -o cmTC_cb97f 
+
+
+Source file was:
+
+#include <cstdlib>
+#include <ctime>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4ffd5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ffd5.dir/build.make CMakeFiles/cmTC_4ffd5.dir/build
+Building CXX object CMakeFiles/cmTC_4ffd5.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_HIDDEN_VISIBILITY  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE   -fvisibility=hidden -std=gnu++17 -MD -MT CMakeFiles/cmTC_4ffd5.dir/src.cxx.o -MF CMakeFiles/cmTC_4ffd5.dir/src.cxx.o.d -o CMakeFiles/cmTC_4ffd5.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4ffd5
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ffd5.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4ffd5.dir/src.cxx.o -o cmTC_4ffd5 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7dfba/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7dfba.dir/build.make CMakeFiles/cmTC_7dfba.dir/build
+Building CXX object CMakeFiles/cmTC_7dfba.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE   -fvisibility-inlines-hidden -std=gnu++17 -MD -MT CMakeFiles/cmTC_7dfba.dir/src.cxx.o -MF CMakeFiles/cmTC_7dfba.dir/src.cxx.o.d -o CMakeFiles/cmTC_7dfba.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7dfba
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dfba.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7dfba.dir/src.cxx.o -o cmTC_7dfba 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4d8bf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4d8bf.dir/build.make CMakeFiles/cmTC_4d8bf.dir/build
+Building CXX object CMakeFiles/cmTC_4d8bf.dir/src.cxx.o
+/usr/bin/clang++ -DCOMPILER_HAS_DEPRECATED_ATTR  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_4d8bf.dir/src.cxx.o -MF CMakeFiles/cmTC_4d8bf.dir/src.cxx.o.d -o CMakeFiles/cmTC_4d8bf.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    int main() { return somefunc();}
+                        ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:1:16: note: 'somefunc' has been explicitly marked deprecated here
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+               ^
+1 warning generated.
+Linking CXX executable cmTC_4d8bf
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d8bf.dir/link.txt --verbose=1
+/usr/bin/clang++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4d8bf.dir/src.cxx.o -o cmTC_4d8bf 
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}

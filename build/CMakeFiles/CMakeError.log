@@ -1,0 +1,267 @@
+Determining if the include file syscall.h exists failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a786e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a786e.dir/build.make CMakeFiles/cmTC_a786e.dir/build
+Building CXX object CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'syscall.h' file not found
+#include <syscall.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_a786e/fast] Error 2
+
+
+
+Determining if the include file ucontext.h exists failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a73bd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a73bd.dir/build.make CMakeFiles/cmTC_a73bd.dir/build
+Building CXX object CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+In file included from /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/ucontext.h:51:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_a73bd/fast] Error 2
+
+
+
+Determining if the include file ext/slist exists failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_119d2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_119d2.dir/build.make CMakeFiles/cmTC_119d2.dir/build
+Building CXX object CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
+#include <ext/slist>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_119d2/fast] Error 2
+
+
+
+Determining if the include file tr1/unordered_map exists failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a020c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a020c.dir/build.make CMakeFiles/cmTC_a020c.dir/build
+Building CXX object CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
+#include <tr1/unordered_map>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_a020c/fast] Error 2
+
+
+
+Determining if the include file tr1/unordered_set exists failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3a501/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3a501.dir/build.make CMakeFiles/cmTC_3a501.dir/build
+Building CXX object CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
+#include <tr1/unordered_set>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_3a501/fast] Error 2
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ead6a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ead6a.dir/build.make CMakeFiles/cmTC_ead6a.dir/build
+Building CXX object CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o
+/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o -MF CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o.d -o CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: note: to match this '('
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:30:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:30:12: note: to match this '('
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:31:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:31:12: note: to match this '('
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:32:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:32:12: note: to match this '('
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:33:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:33:12: note: to match this '('
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o] Error 1
+make: *** [cmTC_ead6a/fast] Error 2
+
+
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_439d4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_439d4.dir/build.make CMakeFiles/cmTC_439d4.dir/build
+Building C object CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o
+/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_439d4
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_439d4.dir/link.txt --verbose=1
+/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o -o cmTC_439d4  -ldbghelp 
+ld: library not found for -ldbghelp
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_439d4] Error 1
+make: *** [cmTC_439d4/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_730dc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_730dc.dir/build.make CMakeFiles/cmTC_730dc.dir/build
+Building CXX object CMakeFiles/cmTC_730dc.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE___DECLSPEC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_730dc.dir/src.cxx.o -MF CMakeFiles/cmTC_730dc.dir/src.cxx.o.d -o CMakeFiles/cmTC_730dc.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(selectany) int a;
+^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_730dc.dir/src.cxx.o] Error 1
+make: *** [cmTC_730dc/fast] Error 2
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_459e9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_459e9.dir/build.make CMakeFiles/cmTC_459e9.dir/build
+Building CXX object CMakeFiles/cmTC_459e9.dir/src.cxx.o
+/usr/bin/clang++ -DSTL_NO_NAMESPACE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_459e9.dir/src.cxx.o -MF CMakeFiles/cmTC_459e9.dir/src.cxx.o.d -o CMakeFiles/cmTC_459e9.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector:471:28: note: 'std::vector' declared here
+class _LIBCPP_TEMPLATE_VIS vector
+                           ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_459e9.dir/src.cxx.o] Error 1
+make: *** [cmTC_459e9/fast] Error 2
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
+Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_daf1f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_daf1f.dir/build.make CMakeFiles/cmTC_daf1f.dir/build
+Building CXX object CMakeFiles/cmTC_daf1f.dir/src.cxx.o
+/usr/bin/clang++ -DHAVE_MSVC_TLS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_daf1f.dir/src.cxx.o -MF CMakeFiles/cmTC_daf1f.dir/src.cxx.o.d -o CMakeFiles/cmTC_daf1f.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(thread) int tls;
+^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_daf1f.dir/src.cxx.o] Error 1
+make: *** [cmTC_daf1f/fast] Error 2
+
+
+Source file was:
+
+__declspec(thread) int tls;
+int main() { }
+
