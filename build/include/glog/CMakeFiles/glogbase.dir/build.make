@@ -73,99 +73,99 @@ include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.o: include/glog/CMakeFiles/
 include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.o: ../include/glog/src/demangle.cc
 include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.o: include/glog/CMakeFiles/glogbase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.o -MF CMakeFiles/glogbase.dir/src/demangle.cc.o.d -o CMakeFiles/glogbase.dir/src/demangle.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.o -MF CMakeFiles/glogbase.dir/src/demangle.cc.o.d -o CMakeFiles/glogbase.dir/src/demangle.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc
 
 include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glogbase.dir/src/demangle.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc > CMakeFiles/glogbase.dir/src/demangle.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc > CMakeFiles/glogbase.dir/src/demangle.cc.i
 
 include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glogbase.dir/src/demangle.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc -o CMakeFiles/glogbase.dir/src/demangle.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc -o CMakeFiles/glogbase.dir/src/demangle.cc.s
 
 include/glog/CMakeFiles/glogbase.dir/src/logging.cc.o: include/glog/CMakeFiles/glogbase.dir/flags.make
 include/glog/CMakeFiles/glogbase.dir/src/logging.cc.o: ../include/glog/src/logging.cc
 include/glog/CMakeFiles/glogbase.dir/src/logging.cc.o: include/glog/CMakeFiles/glogbase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/glog/CMakeFiles/glogbase.dir/src/logging.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/logging.cc.o -MF CMakeFiles/glogbase.dir/src/logging.cc.o.d -o CMakeFiles/glogbase.dir/src/logging.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/logging.cc.o -MF CMakeFiles/glogbase.dir/src/logging.cc.o.d -o CMakeFiles/glogbase.dir/src/logging.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc
 
 include/glog/CMakeFiles/glogbase.dir/src/logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glogbase.dir/src/logging.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc > CMakeFiles/glogbase.dir/src/logging.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc > CMakeFiles/glogbase.dir/src/logging.cc.i
 
 include/glog/CMakeFiles/glogbase.dir/src/logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glogbase.dir/src/logging.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc -o CMakeFiles/glogbase.dir/src/logging.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc -o CMakeFiles/glogbase.dir/src/logging.cc.s
 
 include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.o: include/glog/CMakeFiles/glogbase.dir/flags.make
 include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.o: ../include/glog/src/raw_logging.cc
 include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.o: include/glog/CMakeFiles/glogbase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.o -MF CMakeFiles/glogbase.dir/src/raw_logging.cc.o.d -o CMakeFiles/glogbase.dir/src/raw_logging.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.o -MF CMakeFiles/glogbase.dir/src/raw_logging.cc.o.d -o CMakeFiles/glogbase.dir/src/raw_logging.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc
 
 include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glogbase.dir/src/raw_logging.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc > CMakeFiles/glogbase.dir/src/raw_logging.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc > CMakeFiles/glogbase.dir/src/raw_logging.cc.i
 
 include/glog/CMakeFiles/glogbase.dir/src/raw_logging.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glogbase.dir/src/raw_logging.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc -o CMakeFiles/glogbase.dir/src/raw_logging.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc -o CMakeFiles/glogbase.dir/src/raw_logging.cc.s
 
 include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.o: include/glog/CMakeFiles/glogbase.dir/flags.make
 include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.o: ../include/glog/src/symbolize.cc
 include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.o: include/glog/CMakeFiles/glogbase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.o -MF CMakeFiles/glogbase.dir/src/symbolize.cc.o.d -o CMakeFiles/glogbase.dir/src/symbolize.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.o -MF CMakeFiles/glogbase.dir/src/symbolize.cc.o.d -o CMakeFiles/glogbase.dir/src/symbolize.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc
 
 include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glogbase.dir/src/symbolize.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc > CMakeFiles/glogbase.dir/src/symbolize.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc > CMakeFiles/glogbase.dir/src/symbolize.cc.i
 
 include/glog/CMakeFiles/glogbase.dir/src/symbolize.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glogbase.dir/src/symbolize.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc -o CMakeFiles/glogbase.dir/src/symbolize.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc -o CMakeFiles/glogbase.dir/src/symbolize.cc.s
 
 include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.o: include/glog/CMakeFiles/glogbase.dir/flags.make
 include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.o: ../include/glog/src/utilities.cc
 include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.o: include/glog/CMakeFiles/glogbase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.o -MF CMakeFiles/glogbase.dir/src/utilities.cc.o.d -o CMakeFiles/glogbase.dir/src/utilities.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.o -MF CMakeFiles/glogbase.dir/src/utilities.cc.o.d -o CMakeFiles/glogbase.dir/src/utilities.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc
 
 include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glogbase.dir/src/utilities.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc > CMakeFiles/glogbase.dir/src/utilities.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc > CMakeFiles/glogbase.dir/src/utilities.cc.i
 
 include/glog/CMakeFiles/glogbase.dir/src/utilities.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glogbase.dir/src/utilities.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc -o CMakeFiles/glogbase.dir/src/utilities.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc -o CMakeFiles/glogbase.dir/src/utilities.cc.s
 
 include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o: include/glog/CMakeFiles/glogbase.dir/flags.make
 include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o: ../include/glog/src/vlog_is_on.cc
 include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o: include/glog/CMakeFiles/glogbase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o -MF CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o.d -o CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o -MF CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o.d -o CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc
 
 include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glogbase.dir/src/vlog_is_on.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc > CMakeFiles/glogbase.dir/src/vlog_is_on.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc > CMakeFiles/glogbase.dir/src/vlog_is_on.cc.i
 
 include/glog/CMakeFiles/glogbase.dir/src/vlog_is_on.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glogbase.dir/src/vlog_is_on.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc -o CMakeFiles/glogbase.dir/src/vlog_is_on.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc -o CMakeFiles/glogbase.dir/src/vlog_is_on.cc.s
 
 include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.o: include/glog/CMakeFiles/glogbase.dir/flags.make
 include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.o: ../include/glog/src/signalhandler.cc
 include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.o: include/glog/CMakeFiles/glogbase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.o -MF CMakeFiles/glogbase.dir/src/signalhandler.cc.o.d -o CMakeFiles/glogbase.dir/src/signalhandler.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.o -MF CMakeFiles/glogbase.dir/src/signalhandler.cc.o.d -o CMakeFiles/glogbase.dir/src/signalhandler.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc
 
 include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/glogbase.dir/src/signalhandler.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc > CMakeFiles/glogbase.dir/src/signalhandler.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc > CMakeFiles/glogbase.dir/src/signalhandler.cc.i
 
 include/glog/CMakeFiles/glogbase.dir/src/signalhandler.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/glogbase.dir/src/signalhandler.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc -o CMakeFiles/glogbase.dir/src/signalhandler.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc -o CMakeFiles/glogbase.dir/src/signalhandler.cc.s
 
 glogbase: include/glog/CMakeFiles/glogbase.dir/src/demangle.cc.o
 glogbase: include/glog/CMakeFiles/glogbase.dir/src/logging.cc.o

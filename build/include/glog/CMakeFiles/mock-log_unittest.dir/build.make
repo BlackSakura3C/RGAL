@@ -73,15 +73,15 @@ include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o: includ
 include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o: ../include/glog/src/mock-log_unittest.cc
 include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o: include/glog/CMakeFiles/mock-log_unittest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o -MF CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o.d -o CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o -MF CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o.d -o CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc
 
 include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc > CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc > CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.i
 
 include/glog/CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc -o CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc -o CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.s
 
 # Object files for target mock-log_unittest
 mock__log_unittest_OBJECTS = \

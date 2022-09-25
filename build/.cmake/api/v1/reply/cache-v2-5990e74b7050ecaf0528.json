@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_ADDR2LINE-NOTFOUND"
+			"value" : "/usr/local/opt/llvm/bin/llvm-addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ar"
+			"value" : "/usr/local/opt/llvm/bin/llvm-ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -199,11 +199,43 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
-			"value" : "/usr/bin/clang++"
+			"type" : "FILEPATH",
+			"value" : "/usr/local/opt/llvm/bin/clang++"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "LLVM archiver"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/Cellar/llvm/13.0.0_2/bin/llvm-ar"
+		},
+		{
+			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generate index for LLVM archive"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/Cellar/llvm/13.0.0_2/bin/llvm-ranlib"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -295,11 +327,43 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "C compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
-			"value" : "/usr/bin/clang"
+			"type" : "FILEPATH",
+			"value" : "/usr/local/opt/llvm/bin/clang"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "LLVM archiver"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/Cellar/llvm/13.0.0_2/bin/llvm-ar"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generate index for LLVM archive"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/local/Cellar/llvm/13.0.0_2/bin/llvm-ranlib"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -395,7 +459,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+			"value" : "/usr/local/opt/llvm/bin/llvm-dlltool"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -907,7 +971,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ld"
+			"value" : "/usr/local/opt/llvm/bin/ld.lld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -1019,7 +1083,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/nm"
+			"value" : "/usr/local/opt/llvm/bin/llvm-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -1047,7 +1111,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_OBJCOPY-NOTFOUND"
+			"value" : "/usr/local/opt/llvm/bin/llvm-objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1063,7 +1127,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/objdump"
+			"value" : "/usr/local/opt/llvm/bin/llvm-objdump"
 		},
 		{
 			"name" : "CMAKE_OSX_ARCHITECTURES",
@@ -1223,7 +1287,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/ranlib"
+			"value" : "/usr/local/opt/llvm/bin/llvm-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -1239,7 +1303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_READELF-NOTFOUND"
+			"value" : "/usr/local/opt/llvm/bin/llvm-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1459,7 +1523,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/strip"
+			"value" : "/usr/local/opt/llvm/bin/llvm-strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -2967,7 +3031,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Amore-MacBook-Pro.local"
+			"value" : "localhost"
 		},
 		{
 			"name" : "STL_NO_NAMESPACE",
@@ -3208,6 +3272,18 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "gflags"
+		},
+		{
+			"name" : "glfw3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for glfw3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local/lib/cmake/glfw3"
 		},
 		{
 			"name" : "glog_BINARY_DIR",

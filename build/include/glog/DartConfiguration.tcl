@@ -11,7 +11,7 @@ BuildDirectory: /Volumes/SSD/Git/RiotGameApplication/build/include/glog
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: Amore-MacBook-Pro.local
+Site: localhost
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-clang++
@@ -62,8 +62,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /usr/bin/clang++
-CompilerVersion: 12.0.5.12050022
+Compiler: /usr/local/opt/llvm/bin/clang++
+CompilerVersion: 13.0.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

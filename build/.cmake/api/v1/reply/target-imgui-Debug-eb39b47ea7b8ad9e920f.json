@@ -11,7 +11,9 @@
 		"commands" : 
 		[
 			"add_library",
-			"install"
+			"install",
+			"target_link_libraries",
+			"target_include_directories"
 		],
 		"files" : 
 		[
@@ -25,13 +27,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 41,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 26,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 57,
 				"parent" : 0
 			}
 		]
@@ -54,6 +68,34 @@
 					"define" : "imgui_EXPORTS"
 				}
 			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/SSD/Git/RiotGameApplication/include/imgui"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/local/include"
+				}
+			],
 			"language" : "CXX",
 			"languageStandard" : 
 			{
@@ -68,7 +110,10 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -98,6 +143,35 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework Metal",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-framework Foundation",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/lib/libglfw.3.3.dylib",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
@@ -118,7 +192,10 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -146,6 +223,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "include/imgui/imgui_widgets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/imgui/imgui_demo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/imgui/backends/imgui_impl_glfw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/imgui/backends/imgui_impl_opengl3.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

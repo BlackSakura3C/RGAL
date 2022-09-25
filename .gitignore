@@ -1,0 +1,6 @@
+# ignore vscode configure files
+./vscode
+*.code-workspace
+
+# ignore mac create the Desktop Service Store file
+. DS_Store

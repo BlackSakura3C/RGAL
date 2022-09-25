@@ -1,85 +1,85 @@
 Determining if the include file syscall.h exists failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a786e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a786e.dir/build.make CMakeFiles/cmTC_a786e.dir/build
-Building CXX object CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o
-/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f8c66/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f8c66.dir/build.make CMakeFiles/cmTC_f8c66.dir/build
+Building CXX object CMakeFiles/cmTC_f8c66.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_f8c66.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_f8c66.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_f8c66.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'syscall.h' file not found
 #include <syscall.h>
          ^~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_a786e.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_a786e/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_f8c66.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_f8c66/fast] Error 2
 
 
 
 Determining if the include file ucontext.h exists failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a73bd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a73bd.dir/build.make CMakeFiles/cmTC_a73bd.dir/build
-Building CXX object CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o
-/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_36fe4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_36fe4.dir/build.make CMakeFiles/cmTC_36fe4.dir/build
+Building CXX object CMakeFiles/cmTC_36fe4.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_36fe4.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_36fe4.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_36fe4.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
 In file included from /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/ucontext.h:51:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
 #error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
  ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_a73bd.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_a73bd/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_36fe4.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_36fe4/fast] Error 2
 
 
 
 Determining if the include file ext/slist exists failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_119d2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_119d2.dir/build.make CMakeFiles/cmTC_119d2.dir/build
-Building CXX object CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o
-/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_44c34/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_44c34.dir/build.make CMakeFiles/cmTC_44c34.dir/build
+Building CXX object CMakeFiles/cmTC_44c34.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_44c34.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_44c34.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_44c34.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
 #include <ext/slist>
          ^~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_119d2.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_119d2/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_44c34.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_44c34/fast] Error 2
 
 
 
 Determining if the include file tr1/unordered_map exists failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a020c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a020c.dir/build.make CMakeFiles/cmTC_a020c.dir/build
-Building CXX object CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o
-/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b15a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2b15a.dir/build.make CMakeFiles/cmTC_2b15a.dir/build
+Building CXX object CMakeFiles/cmTC_2b15a.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_2b15a.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_2b15a.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_2b15a.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
 #include <tr1/unordered_map>
          ^~~~~~~~~~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_a020c.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_a020c/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_2b15a.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_2b15a/fast] Error 2
 
 
 
 Determining if the include file tr1/unordered_set exists failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3a501/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3a501.dir/build.make CMakeFiles/cmTC_3a501.dir/build
-Building CXX object CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o
-/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f5fd1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f5fd1.dir/build.make CMakeFiles/cmTC_f5fd1.dir/build
+Building CXX object CMakeFiles/cmTC_f5fd1.dir/CheckIncludeFile.cxx.o
+/usr/local/opt/llvm/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_f5fd1.dir/CheckIncludeFile.cxx.o -MF CMakeFiles/cmTC_f5fd1.dir/CheckIncludeFile.cxx.o.d -o CMakeFiles/cmTC_f5fd1.dir/CheckIncludeFile.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
 #include <tr1/unordered_set>
          ^~~~~~~~~~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_3a501.dir/CheckIncludeFile.cxx.o] Error 1
-make: *** [cmTC_3a501/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_f5fd1.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_f5fd1/fast] Error 2
 
 
 
 Determining size of unsigned __int16 failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_ead6a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ead6a.dir/build.make CMakeFiles/cmTC_ead6a.dir/build
-Building CXX object CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o
-/usr/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o -MF CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o.d -o CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fb17c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fb17c.dir/build.make CMakeFiles/cmTC_fb17c.dir/build
+Building CXX object CMakeFiles/cmTC_fb17c.dir/HAVE___UINT16.cpp.o
+/usr/local/opt/llvm/bin/clang++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_fb17c.dir/HAVE___UINT16.cpp.o -MF CMakeFiles/cmTC_fb17c.dir/HAVE___UINT16.cpp.o.d -o CMakeFiles/cmTC_fb17c.dir/HAVE___UINT16.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:29:12: error: expected ')'
   ('0' + ((SIZE / 10000)%10)),
            ^
@@ -131,8 +131,8 @@ Building CXX object CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o
 #define SIZE (sizeof(unsigned __int16))
                     ^
 5 errors generated.
-make[1]: *** [CMakeFiles/cmTC_ead6a.dir/HAVE___UINT16.cpp.o] Error 1
-make: *** [cmTC_ead6a/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_fb17c.dir/HAVE___UINT16.cpp.o] Error 1
+make: *** [cmTC_fb17c/fast] Error 2
 
 
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CheckTypeSize/HAVE___UINT16.cpp:
@@ -191,31 +191,31 @@ int main(int argc, char *argv[])
 Determining if the function UnDecorateSymbolName exists in the dbghelp failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_439d4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_439d4.dir/build.make CMakeFiles/cmTC_439d4.dir/build
-Building C object CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o
-/usr/bin/clang   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_439d4
-/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_439d4.dir/link.txt --verbose=1
-/usr/bin/clang  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_439d4.dir/CheckFunctionExists.c.o -o cmTC_439d4  -ldbghelp 
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_30409/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_30409.dir/build.make CMakeFiles/cmTC_30409.dir/build
+Building C object CMakeFiles/cmTC_30409.dir/CheckFunctionExists.c.o
+/usr/local/opt/llvm/bin/clang   -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -MD -MT CMakeFiles/cmTC_30409.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_30409.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_30409.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30409
+/usr/local/Cellar/cmake/3.22.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30409.dir/link.txt --verbose=1
+/usr/local/opt/llvm/bin/clang  -DCHECK_FUNCTION_EXISTS=UnDecorateSymbolName -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_30409.dir/CheckFunctionExists.c.o -o cmTC_30409  -ldbghelp 
 ld: library not found for -ldbghelp
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-make[1]: *** [cmTC_439d4] Error 1
-make: *** [cmTC_439d4/fast] Error 2
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_30409] Error 1
+make: *** [cmTC_30409/fast] Error 2
 
 
 
 Performing C++ SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_730dc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_730dc.dir/build.make CMakeFiles/cmTC_730dc.dir/build
-Building CXX object CMakeFiles/cmTC_730dc.dir/src.cxx.o
-/usr/bin/clang++ -DHAVE___DECLSPEC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_730dc.dir/src.cxx.o -MF CMakeFiles/cmTC_730dc.dir/src.cxx.o.d -o CMakeFiles/cmTC_730dc.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_79dfd/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_79dfd.dir/build.make CMakeFiles/cmTC_79dfd.dir/build
+Building CXX object CMakeFiles/cmTC_79dfd.dir/src.cxx.o
+/usr/local/opt/llvm/bin/clang++ -DHAVE___DECLSPEC  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_79dfd.dir/src.cxx.o -MF CMakeFiles/cmTC_79dfd.dir/src.cxx.o.d -o CMakeFiles/cmTC_79dfd.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
 __declspec(selectany) int a;
 ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_730dc.dir/src.cxx.o] Error 1
-make: *** [cmTC_730dc/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_79dfd.dir/src.cxx.o] Error 1
+make: *** [cmTC_79dfd/fast] Error 2
 
 
 Source file was:
@@ -226,19 +226,19 @@ int main(void) { return 0; }
 Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_459e9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_459e9.dir/build.make CMakeFiles/cmTC_459e9.dir/build
-Building CXX object CMakeFiles/cmTC_459e9.dir/src.cxx.o
-/usr/bin/clang++ -DSTL_NO_NAMESPACE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_459e9.dir/src.cxx.o -MF CMakeFiles/cmTC_459e9.dir/src.cxx.o.d -o CMakeFiles/cmTC_459e9.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_27e5c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_27e5c.dir/build.make CMakeFiles/cmTC_27e5c.dir/build
+Building CXX object CMakeFiles/cmTC_27e5c.dir/src.cxx.o
+/usr/local/opt/llvm/bin/clang++ -DSTL_NO_NAMESPACE  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_27e5c.dir/src.cxx.o -MF CMakeFiles/cmTC_27e5c.dir/src.cxx.o.d -o CMakeFiles/cmTC_27e5c.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
 vector<int> t; int main() { }
 ^~~~~~
 std::vector
-/Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk/usr/include/c++/v1/vector:471:28: note: 'std::vector' declared here
+/usr/local/opt/llvm/bin/../include/c++/v1/vector:493:28: note: 'std::vector' declared here
 class _LIBCPP_TEMPLATE_VIS vector
                            ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_459e9.dir/src.cxx.o] Error 1
-make: *** [cmTC_459e9/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_27e5c.dir/src.cxx.o] Error 1
+make: *** [cmTC_27e5c/fast] Error 2
 
 
 Source file was:
@@ -249,15 +249,15 @@ vector<int> t; int main() { }
 Performing C++ SOURCE FILE Test HAVE_MSVC_TLS failed with the following output:
 Change Dir: /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_daf1f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_daf1f.dir/build.make CMakeFiles/cmTC_daf1f.dir/build
-Building CXX object CMakeFiles/cmTC_daf1f.dir/src.cxx.o
-/usr/bin/clang++ -DHAVE_MSVC_TLS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_daf1f.dir/src.cxx.o -MF CMakeFiles/cmTC_daf1f.dir/src.cxx.o.d -o CMakeFiles/cmTC_daf1f.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de6a1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_de6a1.dir/build.make CMakeFiles/cmTC_de6a1.dir/build
+Building CXX object CMakeFiles/cmTC_de6a1.dir/src.cxx.o
+/usr/local/opt/llvm/bin/clang++ -DHAVE_MSVC_TLS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_de6a1.dir/src.cxx.o -MF CMakeFiles/cmTC_de6a1.dir/src.cxx.o.d -o CMakeFiles/cmTC_de6a1.dir/src.cxx.o -c /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx
 /Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
 __declspec(thread) int tls;
 ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_daf1f.dir/src.cxx.o] Error 1
-make: *** [cmTC_daf1f/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_de6a1.dir/src.cxx.o] Error 1
+make: *** [cmTC_de6a1/fast] Error 2
 
 
 Source file was:

@@ -73,64 +73,109 @@ include/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: include/imgui/CMakeFiles/imgui.d
 include/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: ../include/imgui/imgui.cpp
 include/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: include/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui.cpp.o -MF CMakeFiles/imgui.dir/imgui.cpp.o.d -o CMakeFiles/imgui.dir/imgui.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui.cpp.o -MF CMakeFiles/imgui.dir/imgui.cpp.o.d -o CMakeFiles/imgui.dir/imgui.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp
 
 include/imgui/CMakeFiles/imgui.dir/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui.cpp.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
 
 include/imgui/CMakeFiles/imgui.dir/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui.cpp.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
 
 include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: include/imgui/CMakeFiles/imgui.dir/flags.make
 include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: ../include/imgui/imgui_draw.cpp
 include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: include/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o -MF CMakeFiles/imgui.dir/imgui_draw.cpp.o.d -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o -MF CMakeFiles/imgui.dir/imgui_draw.cpp.o.d -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp
 
 include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_draw.cpp.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
 
 include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_draw.cpp.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
 
 include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: include/imgui/CMakeFiles/imgui.dir/flags.make
 include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: ../include/imgui/imgui_tables.cpp
 include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o: include/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o -MF CMakeFiles/imgui.dir/imgui_tables.cpp.o.d -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o -MF CMakeFiles/imgui.dir/imgui_tables.cpp.o.d -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp
 
 include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_tables.cpp.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp > CMakeFiles/imgui.dir/imgui_tables.cpp.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp > CMakeFiles/imgui.dir/imgui_tables.cpp.i
 
 include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_tables.cpp.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp -o CMakeFiles/imgui.dir/imgui_tables.cpp.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp -o CMakeFiles/imgui.dir/imgui_tables.cpp.s
 
 include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: include/imgui/CMakeFiles/imgui.dir/flags.make
 include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: ../include/imgui/imgui_widgets.cpp
 include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: include/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o -MF CMakeFiles/imgui.dir/imgui_widgets.cpp.o.d -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o -MF CMakeFiles/imgui.dir/imgui_widgets.cpp.o.d -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp
 
 include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_widgets.cpp.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp > CMakeFiles/imgui.dir/imgui_widgets.cpp.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp > CMakeFiles/imgui.dir/imgui_widgets.cpp.i
 
 include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_widgets.cpp.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp -o CMakeFiles/imgui.dir/imgui_widgets.cpp.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp -o CMakeFiles/imgui.dir/imgui_widgets.cpp.s
+
+include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: include/imgui/CMakeFiles/imgui.dir/flags.make
+include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: ../include/imgui/imgui_demo.cpp
+include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: include/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o -MF CMakeFiles/imgui.dir/imgui_demo.cpp.o.d -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_demo.cpp
+
+include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_demo.cpp.i"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_demo.cpp > CMakeFiles/imgui.dir/imgui_demo.cpp.i
+
+include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_demo.cpp.s"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_demo.cpp -o CMakeFiles/imgui.dir/imgui_demo.cpp.s
+
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o: include/imgui/CMakeFiles/imgui.dir/flags.make
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o: ../include/imgui/backends/imgui_impl_glfw.cpp
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o: include/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_glfw.cpp
+
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.i"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.i
+
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.s"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.s
+
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o: include/imgui/CMakeFiles/imgui.dir/flags.make
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o: ../include/imgui/backends/imgui_impl_opengl3.cpp
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o: include/imgui/CMakeFiles/imgui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_opengl3.cpp
+
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.i"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.i
+
+include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.s"
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.s
 
 # Object files for target imgui
 imgui_OBJECTS = \
 "CMakeFiles/imgui.dir/imgui.cpp.o" \
 "CMakeFiles/imgui.dir/imgui_draw.cpp.o" \
 "CMakeFiles/imgui.dir/imgui_tables.cpp.o" \
-"CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+"CMakeFiles/imgui.dir/imgui_widgets.cpp.o" \
+"CMakeFiles/imgui.dir/imgui_demo.cpp.o" \
+"CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o"
 
 # External object files for target imgui
 imgui_EXTERNAL_OBJECTS =
@@ -139,9 +184,13 @@ include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/imgui.cpp.o
 include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
 include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/imgui_tables.cpp.o
 include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
+include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o
+include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o
+include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o
 include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/build.make
+include/imgui/libimgui.dylib: /usr/local/lib/libglfw.3.3.dylib
 include/imgui/libimgui.dylib: include/imgui/CMakeFiles/imgui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libimgui.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libimgui.dylib"
 	cd /Volumes/SSD/Git/RiotGameApplication/build/include/imgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

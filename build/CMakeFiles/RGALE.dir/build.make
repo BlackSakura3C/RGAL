@@ -73,15 +73,15 @@ CMakeFiles/RGALE.dir/main.cpp.o: CMakeFiles/RGALE.dir/flags.make
 CMakeFiles/RGALE.dir/main.cpp.o: ../main.cpp
 CMakeFiles/RGALE.dir/main.cpp.o: CMakeFiles/RGALE.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RGALE.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RGALE.dir/main.cpp.o -MF CMakeFiles/RGALE.dir/main.cpp.o.d -o CMakeFiles/RGALE.dir/main.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/main.cpp
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RGALE.dir/main.cpp.o -MF CMakeFiles/RGALE.dir/main.cpp.o.d -o CMakeFiles/RGALE.dir/main.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/main.cpp
 
 CMakeFiles/RGALE.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RGALE.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/main.cpp > CMakeFiles/RGALE.dir/main.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/main.cpp > CMakeFiles/RGALE.dir/main.cpp.i
 
 CMakeFiles/RGALE.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RGALE.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/main.cpp -o CMakeFiles/RGALE.dir/main.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/main.cpp -o CMakeFiles/RGALE.dir/main.cpp.s
 
 # Object files for target RGALE
 RGALE_OBJECTS = \
@@ -92,7 +92,10 @@ RGALE_EXTERNAL_OBJECTS =
 
 RGALE: CMakeFiles/RGALE.dir/main.cpp.o
 RGALE: CMakeFiles/RGALE.dir/build.make
+RGALE: include/glog/libglogd.0.7.0.dylib
 RGALE: include/imgui/libimgui.dylib
+RGALE: /usr/local/lib/libgflags.2.2.2.dylib
+RGALE: /usr/local/lib/libglfw.3.3.dylib
 RGALE: CMakeFiles/RGALE.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RGALE"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RGALE.dir/link.txt --verbose=$(VERBOSE)

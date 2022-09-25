@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/Volumes/SSD/Git/RiotGameApplication/build/include/glog/CMakeFiles/glog.dir/DependInfo.cmake"
   "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   )
 

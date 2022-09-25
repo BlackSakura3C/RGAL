@@ -2,5 +2,5 @@
 #define RGAL_VERSION_MAJOR 1
 #define RGAL_VERSION_MINOR 0
 
-/* #undef USE_GLOG */
-/* #undef USE_IMGUI */
+#define USE_GLOG
+#define USE_IMGUI

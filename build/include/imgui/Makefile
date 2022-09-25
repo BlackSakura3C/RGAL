@@ -195,6 +195,54 @@ imgui/fast:
 	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/build
 .PHONY : imgui/fast
 
+backends/imgui_impl_glfw.o: backends/imgui_impl_glfw.cpp.o
+.PHONY : backends/imgui_impl_glfw.o
+
+# target to build an object file
+backends/imgui_impl_glfw.cpp.o:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o
+.PHONY : backends/imgui_impl_glfw.cpp.o
+
+backends/imgui_impl_glfw.i: backends/imgui_impl_glfw.cpp.i
+.PHONY : backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+backends/imgui_impl_glfw.cpp.i:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.i
+.PHONY : backends/imgui_impl_glfw.cpp.i
+
+backends/imgui_impl_glfw.s: backends/imgui_impl_glfw.cpp.s
+.PHONY : backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+backends/imgui_impl_glfw.cpp.s:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.s
+.PHONY : backends/imgui_impl_glfw.cpp.s
+
+backends/imgui_impl_opengl3.o: backends/imgui_impl_opengl3.cpp.o
+.PHONY : backends/imgui_impl_opengl3.o
+
+# target to build an object file
+backends/imgui_impl_opengl3.cpp.o:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o
+.PHONY : backends/imgui_impl_opengl3.cpp.o
+
+backends/imgui_impl_opengl3.i: backends/imgui_impl_opengl3.cpp.i
+.PHONY : backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+backends/imgui_impl_opengl3.cpp.i:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.i
+.PHONY : backends/imgui_impl_opengl3.cpp.i
+
+backends/imgui_impl_opengl3.s: backends/imgui_impl_opengl3.cpp.s
+.PHONY : backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+backends/imgui_impl_opengl3.cpp.s:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.s
+.PHONY : backends/imgui_impl_opengl3.cpp.s
+
 imgui.o: imgui.cpp.o
 .PHONY : imgui.o
 
@@ -218,6 +266,30 @@ imgui.s: imgui.cpp.s
 imgui.cpp.s:
 	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/imgui.cpp.s
 .PHONY : imgui.cpp.s
+
+imgui_demo.o: imgui_demo.cpp.o
+.PHONY : imgui_demo.o
+
+# target to build an object file
+imgui_demo.cpp.o:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o
+.PHONY : imgui_demo.cpp.o
+
+imgui_demo.i: imgui_demo.cpp.i
+.PHONY : imgui_demo.i
+
+# target to preprocess a source file
+imgui_demo.cpp.i:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i
+.PHONY : imgui_demo.cpp.i
+
+imgui_demo.s: imgui_demo.cpp.s
+.PHONY : imgui_demo.s
+
+# target to generate assembly for a file
+imgui_demo.cpp.s:
+	cd /Volumes/SSD/Git/RiotGameApplication/build && $(MAKE) $(MAKESILENT) -f include/imgui/CMakeFiles/imgui.dir/build.make include/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s
+.PHONY : imgui_demo.cpp.s
 
 imgui_draw.o: imgui_draw.cpp.o
 .PHONY : imgui_draw.o
@@ -306,9 +378,18 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... imgui"
+	@echo "... backends/imgui_impl_glfw.o"
+	@echo "... backends/imgui_impl_glfw.i"
+	@echo "... backends/imgui_impl_glfw.s"
+	@echo "... backends/imgui_impl_opengl3.o"
+	@echo "... backends/imgui_impl_opengl3.i"
+	@echo "... backends/imgui_impl_opengl3.s"
 	@echo "... imgui.o"
 	@echo "... imgui.i"
 	@echo "... imgui.s"
+	@echo "... imgui_demo.o"
+	@echo "... imgui_demo.i"
+	@echo "... imgui_demo.s"
 	@echo "... imgui_draw.o"
 	@echo "... imgui_draw.i"
 	@echo "... imgui_draw.s"

@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/local/opt/llvm/bin/llvm-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -52,11 +52,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RGALE" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RGALE")
     execute_process(COMMAND /usr/bin/install_name_tool
-      -delete_rpath "/Volumes/SSD/Git/RiotGameApplication/build"
+      -delete_rpath "/Volumes/SSD/Git/RiotGameApplication/build/include/glog"
       -delete_rpath "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui"
+      -delete_rpath "/usr/local/lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RGALE")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RGALE")
+      execute_process(COMMAND "/usr/local/opt/llvm/bin/llvm-strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/RGALE")
     endif()
   endif()
 endif()

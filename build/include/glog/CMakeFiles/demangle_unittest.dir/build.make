@@ -73,15 +73,15 @@ include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o: includ
 include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o: ../include/glog/src/demangle_unittest.cc
 include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o: include/glog/CMakeFiles/demangle_unittest.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/SSD/Git/RiotGameApplication/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -MF CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o.d -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -MF CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o.d -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc
 
 include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc > CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc > CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.i
 
 include/glog/CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s"
-	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s
+	cd /Volumes/SSD/Git/RiotGameApplication/build/include/glog && /usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.s
 
 # Object files for target demangle_unittest
 demangle_unittest_OBJECTS = \

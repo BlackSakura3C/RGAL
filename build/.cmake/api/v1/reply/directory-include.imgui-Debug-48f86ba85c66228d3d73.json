@@ -17,13 +17,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 26,
+				"line" : 65,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 66,
 				"parent" : 0
 			}
 		]
@@ -45,7 +45,7 @@
 		{
 			"backtrace" : 2,
 			"component" : "Unspecified",
-			"destination" : "include",
+			"destination" : "include/imgui",
 			"paths" : 
 			[
 				"include/imgui/imgui.h"

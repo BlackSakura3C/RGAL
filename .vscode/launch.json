@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "C/C++: clang++ 生成和调试活动文件",
+            "name": "RGAL debug",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolderBasename}/build/RGALE",
