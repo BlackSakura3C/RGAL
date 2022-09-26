@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/utilities_unittest.dir/src/utilities_unittest.cc.o"
-  "CMakeFiles/utilities_unittest.dir/src/utilities_unittest.cc.o.d"
-  "utilities_unittest"
+  "CMakeFiles/utilities_unittest.dir/src/utilities_unittest.cc.obj"
+  "CMakeFiles/utilities_unittest.dir/src/utilities_unittest.cc.obj.d"
+  "libutilities_unittest.dll.a"
+  "utilities_unittest.exe"
+  "utilities_unittest.exe.manifest"
   "utilities_unittest.pdb"
 )
 

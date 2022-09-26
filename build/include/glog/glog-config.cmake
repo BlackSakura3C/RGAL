@@ -1,6 +1,6 @@
-if (CMAKE_VERSION VERSION_LESS 3.9)
-  message (FATAL_ERROR "CMake >= 3.9 required")
-endif (CMAKE_VERSION VERSION_LESS 3.9)
+if (CMAKE_VERSION VERSION_LESS 3.0)
+  message (FATAL_ERROR "CMake >= 3.0 required")
+endif (CMAKE_VERSION VERSION_LESS 3.0)
 
 
 ####### Expanded from @PACKAGE_INIT@ by configure_package_config_file() #######
@@ -21,7 +21,7 @@ endmacro()
 include (CMakeFindDependencyMacro)
 include (${CMAKE_CURRENT_LIST_DIR}/glog-modules.cmake)
 
-find_dependency (gflags 2.2.2 NO_MODULE)
+
 
 
 include (${CMAKE_CURRENT_LIST_DIR}/glog-targets.cmake)

@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.o"
-  "CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.o.d"
-  "stl_logging_unittest"
+  "CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.obj"
+  "CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.obj.d"
+  "libstl_logging_unittest.dll.a"
+  "stl_logging_unittest.exe"
+  "stl_logging_unittest.exe.manifest"
   "stl_logging_unittest.pdb"
 )
 

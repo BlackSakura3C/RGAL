@@ -15,7 +15,15 @@ set(IMGUI_PUBLIC_H ${PROJECT_SOURCE_DIR}/backends)
 set(CMAKE_CXX_FLAG "${CMAKE_CXX_FLAG}  -Wno-deprecated-declarations") 
 
 # find_package(glfw3 REQUIRED)
-find_package(glfw3 REQUIRED)
+if(APPLE)
+    find_package(glfw3 REQUIRED)
+elseif(WIN32)
+    set(GLFW_INCLUDE_LIB ${PROJECT_SOURCE_DIR}/lib/glfw-lib-mingw-w64/glfw3.dll)
+    find_package(OpenGL REQUIRED)
+    if(NOT OPENGL_FOUND)
+        message("ERROR: OpenGL not found")
+        endif(NOT OPENGL_FOUND)
+endif()
 
 # list(APPEND IMGUI_BACKEND_H
 # ${IMGUI_PUBLIC_H}/imgui_impl_metal.h
@@ -38,6 +46,9 @@ list(APPEND IMGUI_SRC
     ${IMGUI_SRC_CXX}
     ${IMGUI_BACKEND_CXX})
 
+# link_libraries必须放在将要add的前面 目前以弃用 改用后面的target_link_libraries
+#link_libraries(${GLFW_INCLUDE_LIB})
+
 add_library(imgui ${IMGUI_SRC})
 
 if(APPLE)
@@ -50,6 +61,8 @@ if(APPLE)
         # "-framework MetalKit"
         # "-framework QuartzCore"
     )
+elseif(WIN32)
+    target_link_libraries(imgui ${GLFW_INCLUDE_LIB})    
 endif()
 
 # state that anybody linking to us needs to include the current source dir

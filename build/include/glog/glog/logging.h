@@ -85,7 +85,7 @@
 #include <inttypes.h>           // a third place for uint16_t or u_int16_t
 #endif
 
-#if 1
+#if 0
 #include <gflags/gflags.h>
 #endif
 
@@ -102,12 +102,12 @@ typedef int32_t int32;
 typedef uint32_t uint32;
 typedef int64_t int64;
 typedef uint64_t uint64;
-#elif 1   // the BSD format
+#elif 0   // the BSD format
 typedef int32_t int32;
 typedef u_int32_t uint32;
 typedef int64_t int64;
 typedef u_int64_t uint64;
-#elif 0    // the windows (vc7) format
+#elif 1    // the windows (vc7) format
 typedef __int32 int32;
 typedef unsigned __int32 uint32;
 typedef __int64 int64;
@@ -422,7 +422,7 @@ typedef void(*CustomPrefixCallback)(std::ostream& s, const LogMessageInfo& l, vo
 // uint32 specialization
 #define DECLARE_uint32(name) \
   DECLARE_VARIABLE(google::uint32, U, name, uint32)
-#endif // !defined(DECLARE_uint32) && !(1)
+#endif // !defined(DECLARE_uint32) && !(0)
 
 // Special case for string, because we have to specify the namespace
 // std::string, which doesn't play nicely with our FLAG__namespace hackery.

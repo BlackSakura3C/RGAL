@@ -8,25 +8,25 @@
 #define GOOGLE_NAMESPACE google
 
 /* Define if you have the `dladdr' function */
-#define HAVE_DLADDR
+/* #undef HAVE_DLADDR */
 
 /* Define if you have the `snprintf' function */
 #define HAVE_SNPRINTF
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
-#define HAVE_DLFCN_H
+/* #undef HAVE_DLFCN_H */
 
 /* Define if you have the `backtrace' function in <execinfo.h> */
-#define HAVE_EXECINFO_BACKTRACE
+/* #undef HAVE_EXECINFO_BACKTRACE */
 
 /* Define if you have the `backtrace_symbols' function in <execinfo.h> */
-#define HAVE_EXECINFO_BACKTRACE_SYMBOLS
+/* #undef HAVE_EXECINFO_BACKTRACE_SYMBOLS */
 
 /* Define if you have the `fcntl' function */
-#define HAVE_FCNTL
+/* #undef HAVE_FCNTL */
 
 /* Define to 1 if you have the <glob.h> header file. */
-#define HAVE_GLOB_H
+/* #undef HAVE_GLOB_H */
 
 /* Define to 1 if you have the <inttypes.h> header file. */
 #define HAVE_INTTYPES_H 1
@@ -35,16 +35,16 @@
 /* #undef HAVE_LIBPTHREAD */
 
 /* define if you have google gflags library */
-#define HAVE_LIB_GFLAGS
+/* #undef HAVE_LIB_GFLAGS */
 
 /* define if you have google gmock library */
-#define HAVE_LIB_GMOCK
+/* #undef HAVE_LIB_GMOCK */
 
 /* define if you have google gtest library */
-#define HAVE_LIB_GTEST
+/* #undef HAVE_LIB_GTEST */
 
 /* define if you have dbghelp library */
-/* #undef HAVE_DBGHELP */
+#define HAVE_DBGHELP
 
 /* define if you have libunwind */
 /* #undef HAVE_LIB_UNWIND */
@@ -59,25 +59,25 @@
 #define HAVE_NAMESPACES
 
 /* Define if you have the 'pread' function */
-#define HAVE_PREAD
+/* #undef HAVE_PREAD */
 
 /* Define if you have POSIX threads libraries and header files. */
 #define HAVE_PTHREAD
 
 /* Define to 1 if you have the <pwd.h> header file. */
-#define HAVE_PWD_H
+/* #undef HAVE_PWD_H */
 
 /* Define if you have the 'pwrite' function */
-#define HAVE_PWRITE
+/* #undef HAVE_PWRITE */
 
 /* define if the compiler implements pthread_rwlock_* */
 #define HAVE_RWLOCK
 
 /* Define if you have the 'sigaction' function */
-#define HAVE_SIGACTION
+/* #undef HAVE_SIGACTION */
 
 /* Define if you have the `sigaltstack' function */
-#define HAVE_SIGALTSTACK
+/* #undef HAVE_SIGALTSTACK */
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
@@ -89,13 +89,13 @@
 /* #undef HAVE_SYSCALL_H */
 
 /* Define to 1 if you have the <syslog.h> header file. */
-#define HAVE_SYSLOG_H
+/* #undef HAVE_SYSLOG_H */
 
 /* Define to 1 if you have the <sys/stat.h> header file. */
 #define HAVE_SYS_STAT_H
 
 /* Define to 1 if you have the <sys/syscall.h> header file. */
-#define HAVE_SYS_SYSCALL_H
+/* #undef HAVE_SYS_SYSCALL_H */
 
 /* Define to 1 if you have the <sys/time.h> header file. */
 #define HAVE_SYS_TIME_H
@@ -107,10 +107,10 @@
 /* #undef HAVE_SYS_UCONTEXT_H */
 
 /* Define to 1 if you have the <sys/utsname.h> header file. */
-#define HAVE_SYS_UTSNAME_H
+/* #undef HAVE_SYS_UTSNAME_H */
 
 /* Define to 1 if you have the <sys/wait.h> header file. */
-#define HAVE_SYS_WAIT_H
+/* #undef HAVE_SYS_WAIT_H */
 
 /* Define to 1 if you have the <ucontext.h> header file. */
 /* #undef HAVE_UCONTEXT_H */
@@ -137,10 +137,10 @@
 #define HAVE___SYNC_VAL_COMPARE_AND_SWAP
 
 /* define if symbolize support is available */
-#define HAVE_SYMBOLIZE
+/* #undef HAVE_SYMBOLIZE */
 
 /* define if localtime_r is available in time.h */
-#define HAVE_LOCALTIME_R
+/* #undef HAVE_LOCALTIME_R */
 
 /* define if gmtime_r is available in time.h */
 /* #undef HAVE_GMTIME_R */
@@ -187,7 +187,7 @@
 #define STL_NAMESPACE std
 
 /* location of source code */
-#define TEST_SRC_DIR "/Volumes/SSD/Git/RiotGameApplication/include/glog"
+#define TEST_SRC_DIR "E:/Github/RGAL/include/glog"
 
 /* Define to necessary thread-local storage attribute. */
 #define GLOG_THREAD_LOCAL_STORAGE __thread
@@ -226,6 +226,6 @@
 #endif
 
 /* Replacement for deprecated syscall(SYS_gettid) on macOS. */
-#define HAVE_PTHREAD_THREADID_NP 1
+/* #undef HAVE_PTHREAD_THREADID_NP */
 
 #endif  // GLOG_CONFIG_H

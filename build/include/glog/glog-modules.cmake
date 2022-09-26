@@ -6,7 +6,7 @@ if (CMAKE_VERSION VERSION_LESS 3.3)
     "to use CMake 3.3 (or newer)")
 endif (CMAKE_VERSION VERSION_LESS 3.3)
 
-set (glog_MODULE_PATH "/Volumes/SSD/Git/RiotGameApplication/build/include/glog/share/glog/cmake")
+set (glog_MODULE_PATH "E:/Github/RGAL/build/include/glog/share/glog/cmake")
 list (APPEND CMAKE_MODULE_PATH ${glog_MODULE_PATH})
 
 if (NOT glog_MODULE_PATH IN_LIST CMAKE_MODULE_PATH)

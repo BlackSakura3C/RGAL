@@ -1,11 +1,11 @@
-prefix=/usr/local
-exec_prefix=/usr/local/bin
-libdir=/usr/local/lib
-includedir=/usr/local/include
+prefix=C:/Program Files (x86)/RGAL
+exec_prefix=C:/Program Files (x86)/RGAL/bin
+libdir=C:/Program Files (x86)/RGAL/lib
+includedir=C:/Program Files (x86)/RGAL/include
 
 Name: libglog
 Description: Google Log (glog) C++ logging framework
 Version: 0.7.0
 Libs: -L${libdir} -lglog
-Libs.private: -lgflags
+Libs.private: -ldbghelp
 Cflags: -I${includedir}

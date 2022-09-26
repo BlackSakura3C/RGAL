@@ -1,137 +1,122 @@
 [
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -I/Volumes/SSD/Git/RiotGameApplication/build -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/backends -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu++17 -o CMakeFiles/RGALE.dir/main.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/main.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/main.cpp"
+  "directory": "E:/Github/RGAL/build",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES @CMakeFiles/RGALE.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\RGALE.dir\\main.cpp.obj -c E:\\Github\\RGAL\\main.cpp",
+  "file": "E:/Github/RGAL/main.cpp"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/glogbase.dir/src/demangle.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\demangle.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\demangle.cc",
+  "file": "E:/Github/RGAL/include/glog/src/demangle.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/glogbase.dir/src/logging.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\logging.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\logging.cc",
+  "file": "E:/Github/RGAL/include/glog/src/logging.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/glogbase.dir/src/raw_logging.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/raw_logging.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\raw_logging.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\raw_logging.cc",
+  "file": "E:/Github/RGAL/include/glog/src/raw_logging.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/glogbase.dir/src/symbolize.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\symbolize.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\symbolize.cc",
+  "file": "E:/Github/RGAL/include/glog/src/symbolize.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/glogbase.dir/src/utilities.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\utilities.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\utilities.cc",
+  "file": "E:/Github/RGAL/include/glog/src/utilities.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/glogbase.dir/src/vlog_is_on.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/vlog_is_on.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\vlog_is_on.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\vlog_is_on.cc",
+  "file": "E:/Github/RGAL/include/glog/src/vlog_is_on.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -I/usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/glogbase.dir/src/signalhandler.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\signalhandler.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\signalhandler.cc",
+  "file": "E:/Github/RGAL/include/glog/src/signalhandler.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/logging_unittest.dir/src/logging_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGOOGLE_GLOG_IS_A_DLL @CMakeFiles/glogbase.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\glogbase.dir\\src\\windows\\port.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\windows\\port.cc",
+  "file": "E:/Github/RGAL/include/glog/src/windows/port.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/logging_custom_prefix_unittest.dir/src/logging_custom_prefix_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging_custom_prefix_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/logging_custom_prefix_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE @CMakeFiles/logging_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\logging_unittest.dir\\src\\logging_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\logging_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/logging_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -DGLOG_STL_LOGGING_FOR_EXT_HASH -DGLOG_STL_LOGGING_FOR_UNORDERED -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -Wno-deprecated -std=gnu++17 -o CMakeFiles/stl_logging_unittest.dir/src/stl_logging_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/stl_logging_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/stl_logging_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE @CMakeFiles/logging_custom_prefix_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\logging_custom_prefix_unittest.dir\\src\\logging_custom_prefix_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\logging_custom_prefix_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/logging_custom_prefix_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/symbolize_unittest.dir/src/symbolize_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/symbolize_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -DGLOG_STL_LOGGING_FOR_EXT_HASH -DGLOG_STL_LOGGING_FOR_EXT_SLIST -DGLOG_STL_LOGGING_FOR_TR1_UNORDERED -DGLOG_STL_LOGGING_FOR_UNORDERED @CMakeFiles/stl_logging_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -Wno-deprecated -std=gnu++17 -o CMakeFiles\\stl_logging_unittest.dir\\src\\stl_logging_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\stl_logging_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/stl_logging_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/demangle_unittest.dir/src/demangle_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/demangle_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE @CMakeFiles/demangle_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\demangle_unittest.dir\\src\\demangle_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\demangle_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/demangle_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/stacktrace_unittest.dir/src/stacktrace_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/stacktrace_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/stacktrace_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE @CMakeFiles/utilities_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\utilities_unittest.dir\\src\\utilities_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\utilities_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/utilities_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/utilities_unittest.dir/src/utilities_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/utilities_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE @CMakeFiles/cleanup_immediately_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\cleanup_immediately_unittest.dir\\src\\cleanup_immediately_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\cleanup_immediately_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/cleanup_immediately_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/signalhandler_unittest.dir/src/signalhandler_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/signalhandler_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE @CMakeFiles/cleanup_with_absolute_prefix_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\cleanup_with_absolute_prefix_unittest.dir\\src\\cleanup_with_absolute_prefix_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\cleanup_with_absolute_prefix_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/cleanup_with_absolute_prefix_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/mock-log_unittest.dir/src/mock-log_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/mock-log_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/glog",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_ABBREVIATED_SEVERITIES -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE @CMakeFiles/cleanup_with_relative_prefix_unittest.dir/includes_CXX.rsp -g -fvisibility=hidden -fno-keep-inline-dllexport -std=gnu++17 -o CMakeFiles\\cleanup_with_relative_prefix_unittest.dir\\src\\cleanup_with_relative_prefix_unittest.cc.obj -c E:\\Github\\RGAL\\include\\glog\\src\\cleanup_with_relative_prefix_unittest.cc",
+  "file": "E:/Github/RGAL/include/glog/src/cleanup_with_relative_prefix_unittest.cc"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/cleanup_immediately_unittest.dir/src/cleanup_immediately_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/cleanup_immediately_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/cleanup_immediately_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/imgui",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui.cpp.obj -c E:\\Github\\RGAL\\include\\imgui\\imgui.cpp",
+  "file": "E:/Github/RGAL/include/imgui/imgui.cpp"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/cleanup_with_absolute_prefix_unittest.dir/src/cleanup_with_absolute_prefix_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/cleanup_with_absolute_prefix_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/cleanup_with_absolute_prefix_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/imgui",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui_draw.cpp.obj -c E:\\Github\\RGAL\\include\\imgui\\imgui_draw.cpp",
+  "file": "E:/Github/RGAL/include/imgui/imgui_draw.cpp"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/glog",
-  "command": "/usr/local/opt/llvm/bin/clang++ -DGFLAGS_IS_A_DLL=0 -DGLOG_CUSTOM_PREFIX_SUPPORT -DGLOG_NO_SYMBOLIZE_DETECTION -DGLOG_STATIC_DEFINE -I/Volumes/SSD/Git/RiotGameApplication/include/glog/src -I/Volumes/SSD/Git/RiotGameApplication/build/include/glog -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unnamed-type-template-args -std=gnu++17 -o CMakeFiles/cleanup_with_relative_prefix_unittest.dir/src/cleanup_with_relative_prefix_unittest.cc.o -c /Volumes/SSD/Git/RiotGameApplication/include/glog/src/cleanup_with_relative_prefix_unittest.cc",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/glog/src/cleanup_with_relative_prefix_unittest.cc"
+  "directory": "E:/Github/RGAL/build/include/imgui",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui_tables.cpp.obj -c E:\\Github\\RGAL\\include\\imgui\\imgui_tables.cpp",
+  "file": "E:/Github/RGAL/include/imgui/imgui_tables.cpp"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui",
-  "command": "/usr/local/opt/llvm/bin/clang++ -Dimgui_EXPORTS -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -std=gnu++17 -o CMakeFiles/imgui.dir/imgui.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui.cpp"
+  "directory": "E:/Github/RGAL/build/include/imgui",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui_widgets.cpp.obj -c E:\\Github\\RGAL\\include\\imgui\\imgui_widgets.cpp",
+  "file": "E:/Github/RGAL/include/imgui/imgui_widgets.cpp"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui",
-  "command": "/usr/local/opt/llvm/bin/clang++ -Dimgui_EXPORTS -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_draw.cpp"
+  "directory": "E:/Github/RGAL/build/include/imgui",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\imgui_demo.cpp.obj -c E:\\Github\\RGAL\\include\\imgui\\imgui_demo.cpp",
+  "file": "E:/Github/RGAL/include/imgui/imgui_demo.cpp"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui",
-  "command": "/usr/local/opt/llvm/bin/clang++ -Dimgui_EXPORTS -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_tables.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_tables.cpp"
+  "directory": "E:/Github/RGAL/build/include/imgui",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_glfw.cpp.obj -c E:\\Github\\RGAL\\include\\imgui\\backends\\imgui_impl_glfw.cpp",
+  "file": "E:/Github/RGAL/include/imgui/backends/imgui_impl_glfw.cpp"
 },
 {
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui",
-  "command": "/usr/local/opt/llvm/bin/clang++ -Dimgui_EXPORTS -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_widgets.cpp"
-},
-{
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui",
-  "command": "/usr/local/opt/llvm/bin/clang++ -Dimgui_EXPORTS -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -std=gnu++17 -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_demo.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/imgui/imgui_demo.cpp"
-},
-{
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui",
-  "command": "/usr/local/opt/llvm/bin/clang++ -Dimgui_EXPORTS -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_glfw.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_glfw.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_glfw.cpp"
-},
-{
-  "directory": "/Volumes/SSD/Git/RiotGameApplication/build/include/imgui",
-  "command": "/usr/local/opt/llvm/bin/clang++ -Dimgui_EXPORTS -I/Volumes/SSD/Git/RiotGameApplication/include/imgui -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/GLFW -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Metal -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/Foundation -I/Volumes/SSD/Git/RiotGameApplication/include/imgui/QuartzCore -isystem /usr/local/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -fPIC -std=gnu++17 -o CMakeFiles/imgui.dir/backends/imgui_impl_opengl3.cpp.o -c /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_opengl3.cpp",
-  "file": "/Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_opengl3.cpp"
+  "directory": "E:/Github/RGAL/build/include/imgui",
+  "command": "E:\\Compiler\\mingw64\\bin\\g++.exe -Dimgui_EXPORTS @CMakeFiles/imgui.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\imgui.dir\\backends\\imgui_impl_opengl3.cpp.obj -c E:\\Github\\RGAL\\include\\imgui\\backends\\imgui_impl_opengl3.cpp",
+  "file": "E:/Github/RGAL/include/imgui/backends/imgui_impl_opengl3.cpp"
 }
 ]

@@ -4,30 +4,31 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Volumes/SSD/Git/RiotGameApplication/include/glog
-BuildDirectory: /Volumes/SSD/Git/RiotGameApplication/build/include/glog
+SourceDirectory: E:/Github/RGAL/include/glog
+BuildDirectory: E:/Github/RGAL/build/include/glog
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: localhost
+Site: DESKTOP-I6BHROB
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
-BuildName: Darwin-clang++
+BuildName: Win32-mingw32-make
 
 # Subprojects
 LabelsForSubprojects: 
 
 # Submission information
 SubmitURL: http://
+SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/local/Cellar/cmake/3.22.1/bin/cmake" "/Volumes/SSD/Git/RiotGameApplication/include/glog"
-MakeCommand: /usr/local/Cellar/cmake/3.22.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "E:/Github/RGAL/include/glog"
+MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -44,7 +45,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: /usr/local/bin/git
+GITCommand: 
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -57,13 +58,13 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: /usr/local/bin/git
+UpdateCommand: 
 UpdateOptions: 
-UpdateType: git
+UpdateType: 
 
 # Compiler info
-Compiler: /usr/local/opt/llvm/bin/clang++
-CompilerVersion: 13.0.0
+Compiler: E:/Compiler/mingw64/bin/g++.exe
+CompilerVersion: 8.1.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -80,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: /usr/bin/gcov
+CoverageCommand: E:/Compiler/mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

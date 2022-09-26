@@ -9,15 +9,15 @@
 #  ifndef GLOG_EXPORT
 #    ifdef GOOGLE_GLOG_IS_A_DLL
         /* We are building this library */
-#      define GLOG_EXPORT __attribute__((visibility("default")))
+#      define GLOG_EXPORT __declspec(dllexport)
 #    else
         /* We are using this library */
-#      define GLOG_EXPORT __attribute__((visibility("default")))
+#      define GLOG_EXPORT __declspec(dllimport)
 #    endif
 #  endif
 
 #  ifndef GLOG_NO_EXPORT
-#    define GLOG_NO_EXPORT __attribute__((visibility("hidden")))
+#    define GLOG_NO_EXPORT 
 #  endif
 #endif
 

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cleanup_with_relative_prefix_unittest.dir/src/cleanup_with_relative_prefix_unittest.cc.o"
-  "CMakeFiles/cleanup_with_relative_prefix_unittest.dir/src/cleanup_with_relative_prefix_unittest.cc.o.d"
-  "cleanup_with_relative_prefix_unittest"
+  "CMakeFiles/cleanup_with_relative_prefix_unittest.dir/src/cleanup_with_relative_prefix_unittest.cc.obj"
+  "CMakeFiles/cleanup_with_relative_prefix_unittest.dir/src/cleanup_with_relative_prefix_unittest.cc.obj.d"
+  "cleanup_with_relative_prefix_unittest.exe"
+  "cleanup_with_relative_prefix_unittest.exe.manifest"
   "cleanup_with_relative_prefix_unittest.pdb"
+  "libcleanup_with_relative_prefix_unittest.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

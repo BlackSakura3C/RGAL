@@ -90,6 +90,9 @@ amore@localhost RiotGameApplication %
 
     类似客户端目前的分析系统，但最好分成大乱斗以及匹配和排位，这样可以让我在上分的时候分析不足不断进步，让我在乱斗中找乐子时经常看到夸夸数据更乐一点
 
+0. 最后终极需求
+   做一个不带GUI的terminal版本，跨平台就ok（Mac上打日服的需求）
+
 ### 2. 任务进度
 
 排名按照考虑时的先后顺序和当前认为的重要程度排序
@@ -106,9 +109,26 @@ amore@localhost RiotGameApplication %
 
 主要适配的环境还是**opengl+glfw**
 
-首先不管是Windows还是Linux、Macos都需要cmake+clang
+- 首先不管是Windows还是Linux、Macos都需要cmake+clang-13 / gcc-8.1.0(gcc目前只测试了该版本)
 
-- [ImGui库可视化站点](https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html)
+    Windows平台：
+    - [cmake](https://cmake.org/download/)下载安装：
+    不要安装源码编译，除非你已经有cmake想升级版本或有VS应该也行，源码cmake需要cmake进行编译（滑稽），安装成功后可以在命令行里面敲`cmake --version`检查是否安装成功
+    随后还需要根据你的g++位置进行设置`cmake -DCMAKE_CXX_COMPILER=/pathto/g++ -DCMAKE_C_COMPILER=/pathto/gcc /pathto/source`，否则在使用cmake时会出现`CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage`
+    ![cmake](pic/install/cmake_web.png)
+
+- 随后为了执行带GUI的应用，需要安装GLFW3+OpenGL3
+
+    - [GLFW3](https://www.glfw.org/)或直接下载[预编译](https://www.glfw.org/download.html)好的GLFW（建议别折磨自己编译）=> **已在项目中配置完成**
+    ![GLFW3](./pic/install/glfw3_web.png)
+    还是建议直接装这个好的，**这里为了方便，我直接把需要的dll文件用CMakeList.txt在本项目目录中配置好了X86系统的，现在ARM可能得自己配**
+    ![GLFW3_2](./pic/install/glfw3_web2.png)
+
+    - OpenGL：Windows应该默认就有安装，不需要管
+
+
+
+- [ImGui库可视化示例站点](https://pthom.github.io/imgui_manual_online/manual/imgui_manual.html)
 
 （才刚开始写，先记录部分注意事项，格式什么的随后调整）
 1. 配置编译项目的时候注意cmake参数，部分库考虑到后续可能会换，全部写成option选项，配置时需要说明开启

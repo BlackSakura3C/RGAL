@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "libglogd.0.7.0.dylib"
-  "libglogd.1.dylib"
-  "libglogd.dylib"
+  "libglogd.dll"
+  "libglogd.dll.a"
+  "libglogd.dll.manifest"
   "libglogd.pdb"
 )
 

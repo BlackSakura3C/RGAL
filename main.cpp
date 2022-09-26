@@ -1,5 +1,9 @@
 
 
+#if defined(_WIN32)
+#define IMGUI_ENABLE_WIN32_DEFAULT_IME_FUNCTIONS
+#endif
+
 #include <iostream>
 
 // 输入文件内容

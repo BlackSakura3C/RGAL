@@ -12,6 +12,8 @@ if(APPLE)
 endif()
 ```
 
+### 1.1 Macos
+
 1. macos 下clang版本问题导致的，从clang12.0.5升级成13
 ```
 [build] In file included from /Volumes/SSD/Git/RiotGameApplication/include/imgui/backends/imgui_impl_osx.mm:19:
@@ -133,6 +135,52 @@ endif()
 [build]   "_OBJC_CLASS_$_MTLVertexDescriptor", referenced from:
 [build]       objc-class-ref in imgui_impl_metal.mm.o
 [build] ld: symbol(s) not found for architecture x86_64
+```
+
+### 1.2 Windows
+
+1. Windows中因为对`link_libraries`和`target_link_libraries`理解不到位导致出错
+
+`link_libraries`用于将要被add的前面，链接这些文件进来，目前已被弃用
+`target_link_libraries`用于add后，将items链接到目标文件上
+
+```
+...
+elseif(WIN32)
+    target_link_libraries(imgui ${GLFW_INCLUDE_LIB}) # 对
+    #link_libraries(${GLFW_INCLUDE_LIB}) # 错 这里链接不进来 所以才会有下面的找不到内容的错误
+endif()
+
+# 应该是
+# link_libraries必须放在将要add的前面 目前以弃用 改用后面的target_link_libraries
+# link_libraries(${GLFW_INCLUDE_LIB})
+
+add_library(imgui ${IMGUI_SRC})
+
+if(APPLE)
+    target_link_libraries(imgui
+        "-framework Metal"
+        "-framework Cocoa"
+        "-framework OpenGL"
+        "-framework Foundation"
+        "glfw"
+        # "-framework MetalKit"
+        # "-framework QuartzCore"
+    )
+elseif(WIN32)
+    target_link_libraries(imgui ${GLFW_INCLUDE_LIB})    
+endif()
+```
+
+```cmake
+[build] CMakeFiles\imgui.dir/objects.a(imgui_impl_glfw.cpp.obj): In function `ImGui_ImplGlfw_NewFrame()':
+[build] E:/Github/RGAL/include/imgui/backends/imgui_impl_glfw.cpp:792: undefined reference to `glfwGetWindowSize'
+[build] E:/Github/RGAL/include/imgui/backends/imgui_impl_glfw.cpp:793: undefined reference to `glfwGetFramebufferSize'
+[build] E:/Github/RGAL/include/imgui/backends/imgui_impl_glfw.cpp:799: undefined reference to `glfwGetTime'
+[build] collect2.exe: error: ld returned 1 exit status
+[build] mingw32-make.exe[2]: *** [include\imgui\CMakeFiles\imgui.dir\build.make:201: include/imgui/libimgui.dll] Error 1
+[build] mingw32-make.exe[1]: *** [CMakeFiles\Makefile2:1206: include/imgui/CMakeFiles/imgui.dir/all] Error 2
+[build] mingw32-make.exe: *** [Makefile:155: all] Error 2
 ```
 
 ## 2. Backend: Metal + GLFW
