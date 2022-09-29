@@ -5,5 +5,7 @@
 # ignore mac create the Desktop Service Store file
 *.DS_Store
 
+.log
+
 # ignore build file
 build/
