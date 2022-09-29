@@ -1,9 +1,9 @@
 # ignore vscode configure files
-./.vscode
+.vscode/
 *.code-workspace
 
 # ignore mac create the Desktop Service Store file
 *.DS_Store
 
 # ignore build file
-./build/*
+build/

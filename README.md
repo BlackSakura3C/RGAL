@@ -1,13 +1,13 @@
-# 英雄联盟相关应用开发工具
+# 英雄联盟相关应用开发工具(项目正在抽空开发中)
 
 ## 一、开发项目
 ## 0. 前言
 
-1. 部分说明
+#### 1. 部分说明
 - 所有的拳头API需要https://127.0.0.1:port作为头部，后需要身份验证，用户名riot+密码Token
 - 项目依据的[API地址1](https://lcu.vivide.re/)、[API地址2](http://www.mingweisamuel.com/lcu-schema/tool/#/)
 
-2. Token以及本地运行端口获取
+#### 2. Token以及本地运行端口获取
 
 ```bash
 # Windows 需管理员身份
@@ -36,6 +36,66 @@ amore@localhost RiotGameApplication %
 ![interface_test](./pic/postman_interface_test_1.png)
 
 在`/Users/amore/Library/Application Support/Riot Games/Riot Client/Config/lockfile`中也记录着`Riot Client:82950:51986:KZzsoekl1sp-lDzq6-VSIA:https`的信息，看起来也是pid+port+Token+通信协议，但和实际的貌似不符，可能是弃用了或有其他作用，后续再研究
+
+
+#### 3. 相关资源内容获取
+
+这里的资源主要指的是LOL的英雄、头像、皮肤图片，fiddler4抓某助手软件的**我的皮肤**功能截获的`https GET`请求，发现请求的地址主要是`https://wegame.gtimg.com/g.26-r.c2d3c/helper/lol/assis/images/resources/`
+
+- 英雄信息列表
+`https://game.gtimg.cn/images/lol/act/img/js/heroList/hero_list.js`
+
+- 装备图标
+
+例如：
+永霜的小型图标`https://wegame.gtimg.com/g.26-r.c2d3c/helper/lol/assis/images/resources/items/6656.png`
+卢登的小型图标`https://wegame.gtimg.com/g.26-r.c2d3c/helper/lol/assis/images/resources/items/6656.png`
+
+![item](./pic/resource/item_6655.png) | ![item2](./pic/resource/item_6656.png)
+---|---
+
+
+例如：
+- 英雄小幅头像
+例如：
+酒桶的小幅头像地址`https://wegame.gtimg.com/g.26-r.c2d3c/helper/lol/assis/images/resources/champions/79.png`
+
+![champions](./pic/resource/champions_79.png)
+
+- 英雄或皮肤的载入框图标
+例如：
+女枪的原皮loading pic地址`https://game.gtimg.cn/images/lol/act/img/skinloading/21000.jpg`
+幻灵战队皮肤地址`https://game.gtimg.cn/images/lol/act/img/skinloading/21031.jpg`
+大致可以分析出最后五位代码，逻辑上前几位应该是英雄id后面是资源序列号，随后求请求`https://wegame.gtimg.com/g.26-r.c2d3c/helper/lol/assis/images/resources/champions/21.png`进行了求证，发现确实是女枪的小幅头像资源
+**需要重点说明的是，并不是资源id都是连续的，中间会有断档，而且skinloading里面还会混杂炫彩内容，猜测是有的资源在内部并没有过审，成为废弃内容但是目前也拿不到这部分数据**
+
+![skingloading](pic/resource/skinloading_21000.png) | ![skinloading2](pic/resource/skinloading_21031.png)
+---|---
+
+- 炫彩内容
+例如女枪幻灵战队的炫彩内容地址`https://game.gtimg.cn/images/lol/act/img/chromas/21/21025.png`
+后面资源序号也是从000开始的，但是很可能前面是没有的，有炫彩的皮肤才会有资源，序列号按照时间顺序排列
+
+![chromas](./pic/resource/chromas_21_21022.png)|![chromas](pic/resource/chromas_21_21025.png)
+---|---
+
+- 皮肤小图
+
+用于最小窗预览的皮肤图片`https://wegame.gtimg.com/g.26-r.c2d3c/helper/lol/assis/images/resources/skins/preview/21-015.jpg`
+
+![preview](./pic/resource/skin_preview_21-015.png) | ![preview2](pic/resource/skin_preview_21-018.png)
+---|---
+- 皮肤大图
+
+皮肤大图地址例如`https://wegame.gtimg.com/g.26-r.c2d3c/helper/lol/assis/images/resources/skins/original/21-018.jpg `
+或这个地址貌似也能用`https://game.gtimg.cn/images/lol/act/img/skin/big17002.jpg`
+
+![original](pic/resource/skin_original_36-003.png) | ![original](./pic/resource/skin_original_82-013.png) | ![big](./pic/resource/skin_big_17002.png)
+---|---|---
+
+**还找到了一个补充的[LOL资源参考网站](https://lol.qq.com/cguide/Guide/PublicResources/Images.html)**、甚至还找到了一些王者荣耀的资源地址：例如`https://www.sapi.run/hero/herolist.json`，注意看这个请求回来的内容`https://www.sapi.run/hero/select.php?hero=孙悟空&type=qq`去站点里面瞅了一眼好像还是有一些内容的
+
+待参考内容：
 
 ## 1. 国服（大陆地区不包括台服）
 
