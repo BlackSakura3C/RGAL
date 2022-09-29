@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\demangle_unittest.dir/objects.a
-E:\Compiler\mingw64\bin\ar.exe qc CMakeFiles\demangle_unittest.dir/objects.a @CMakeFiles\demangle_unittest.dir\objects1.rsp
-E:\Compiler\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\demangle_unittest.dir/objects.a -Wl,--no-whole-archive -o demangle_unittest.exe -Wl,--out-implib,libdemangle_unittest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\demangle_unittest.dir\linklibs.rsp

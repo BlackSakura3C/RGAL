@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\RGALE.dir/objects.a
-E:\Compiler\mingw64\bin\ar.exe qc CMakeFiles\RGALE.dir/objects.a @CMakeFiles\RGALE.dir\objects1.rsp
-E:\Compiler\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\RGALE.dir/objects.a -Wl,--no-whole-archive -o RGALE.exe -Wl,--out-implib,libRGALE.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RGALE.dir\linklibs.rsp

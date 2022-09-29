@@ -1,2 +1,0 @@
-E:\Compiler\mingw64\bin\ar.exe qc libglogtestd.a CMakeFiles/glogbase.dir/src/demangle.cc.obj CMakeFiles/glogbase.dir/src/logging.cc.obj CMakeFiles/glogbase.dir/src/raw_logging.cc.obj CMakeFiles/glogbase.dir/src/symbolize.cc.obj CMakeFiles/glogbase.dir/src/utilities.cc.obj CMakeFiles/glogbase.dir/src/vlog_is_on.cc.obj CMakeFiles/glogbase.dir/src/signalhandler.cc.obj CMakeFiles/glogbase.dir/src/windows/port.cc.obj
-E:\Compiler\mingw64\bin\ranlib.exe libglogtestd.a
