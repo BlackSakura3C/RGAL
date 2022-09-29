@@ -1,0 +1,238 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "RGALE.exe"
+		},
+		{
+			"path" : "RGALE.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"include/imgui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 65,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_CUSTOM_PREFIX_SUPPORT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLOG_NO_ABBREVIATED_SEVERITIES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "E:/Github/RGAL/build"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/build/include/glog"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/glog/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/glog/src/windows"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/imgui"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/imgui/GLFW"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/imgui/Metal"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/imgui/Foundation"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/imgui/QuartzCore"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/imgui/backends"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Github/RGAL/include/json-develop/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "glog::@566276d3e62dcc4a6445"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "imgui::@db93816ce3ecb80b02b7"
+		}
+	],
+	"id" : "RGALE::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/RGAL"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include\\glog\\libglogd.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include\\imgui\\libimgui.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "E:\\Github\\RGAL\\include\\imgui\\lib\\glfw-lib-mingw-w64\\glfw3.dll",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "RGALE",
+	"nameOnDisk" : "RGALE.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
