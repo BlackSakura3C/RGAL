@@ -1,6 +1,21 @@
 # Bug 记录
 
+## 0. 基础环境cmake
+
+1. 该项目的构建采用cmake进行管理，要编译安装此项目必须安装cmake工具
+
+```
+[cmake] Not searching for unused variables given on the command line.
+[cmake] CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[cmake]   CMake 3.16 or higher is required.  You are running version
+[cmake]   3.14.19050301-MSVC_2
+[cmake] 
+[cmake] 
+[cmake] -- Configuring incomplete, errors occurred!
+```
+
 ## 1. Backend: glfw + opengl3 (已经配置好了)
+
 ```
 if(APPLE)
     target_link_libraries(imgui

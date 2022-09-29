@@ -3705,7 +3705,294 @@
     ```
     </details>
 
+6. **根据用户游戏ID查询详情**
 
+- 模拟请求
+
+    <details>
+    <summary>请求头部</summary>
+
+    ```
+    POST https://www.wegame.com.cn/api/v1/wegame.pallas.game.LolBattle/SearchPlayer HTTP/1.1
+    Host: www.wegame.com.cn
+    Connection: keep-alive
+    Content-Length: 51
+    Accept: application/json, text/plain, */*
+    Origin: https://www.wegame.com.cn
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.124 Safari/537.36 qblink wegame.exe WeGame/5.4.1.8121 QBCore/3.70.91.400 QQBrowser/9.0.2524.400
+    trpc-caller: wegame.pallas.web.LolBattle
+    Content-Type: application/json;charset=UTF-8
+    Referer: https://www.wegame.com.cn/helper/lol/search/index.html?kw=%E4%B8%AD%E5%8D%95%E6%B3%95%E7%8E%8B&navid=61
+    Accept-Encoding: gzip, deflate, br
+    Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.5;q=0.7
+    Cookie: pgv_pvid=7853204874; ts_uid=3113482265; PTTuserFirstTime=1662249600000; weekloop=37-38-0-40; region=CN; puin=250820552; pt2gguin=o0250820552; uin=o0250820552; tgp_id=297512252; geoid=45; lcid=2052; tgp_env=online; tgp_user_type=0; colorMode=1; ssr=0; colorMode=1; BGTheme=[object Object]; pgv_info=ssid=s9743200978; tgp_biz_ticket=01000000000000000016F4E60ABD81DFA5F9BF7A56232304DB420CDB8FB11682249588ECC7141B30A7AADFE625A9F65FD255C4C3DD95B7B8352A240F7FFAE46C72B795C2E3200B1938; language=zh_CN; isHostDate=19264; pkey=00016335BC2100701CA752EC8EAD55DE60657A81A3796D65E5B65FBE9A72F62216444076D25846DA47DB153D7693EB2B58CFFFD9A071CA897E049F4D9EDD9BC09024A9914E02F5A75B4E47CBD63CE1FEEAF19E9C4566982405AB2BA1F7E56F198F7272446106E4F48015DDB8AB27FA89D797D37F095BAA30; tgp_ticket=00F452FEBDD86E77536BAAC98D11E0C93294542AE6ED152CFE1CD39E9943405E18CCC2240BB5B37FB7F1F67A2C031CABE63F48F3CD551B2C30C0AB6023C07501B07CA4551957CBF46F8FDB6E8F735EA10BDDDF6997CBDAC9E880D004F6F35820A5E3BCDDCA48F96ABA5BF3575E7550CA1BF0E9B6F2F4947CAE4D737D3DFFE383; ts_last=www.wegame.com.cn/helper/lol/search/index.html
+
+    {"nickname":"中单法王","from_src":"lol_helper"}
+    ```
+    </details>
+
+- 返回结果
+
+    <details>
+    <summary>返回结果</summary>
+
+    ```json
+    HTTP/1.1 200 OK
+    Date: Thu, 29 Sep 2022 15:52:49 GMT
+    Content-Type: application/json; charset=utf-8
+    Connection: keep-alive
+    Server: openresty/1.19.3.1
+    Access-Control-Allow-Credentials: true
+    Access-Control-Allow-Methods: POST, GET, OPTIONS
+    Access-Control-Allow-Headers: *
+    Access-Control-Allow-Origin: https://www.wegame.com.cn
+    Access-Control-Max-Age: 1000
+    x-content-type-options: nosniff
+    X-TRACE-ID: 72d0868e-f13e-4742-a4ab-296bd4a06048
+    Content-Length: 2726
+
+    {
+        "result": {
+            "error_code": 0,
+            "error_message": "success"
+        },
+        "players": [
+            {
+                "openid": "l8SeA/X/qpl401JD+HNIGg==",
+                "area": 18,
+                "icon_id": 5,
+                "level": 18,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "Se59avfOJxi7xgs98xJNaQ==",
+                "area": 3,
+                "icon_id": 931,
+                "level": 11,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "BZaBD9o/DPp4dH5Ax0DGSQ==",
+                "area": 23,
+                "icon_id": 10,
+                "level": 2,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "g7bWyEGNkRQJTLhTyz84rQ==",
+                "area": 21,
+                "icon_id": 28,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "y0OUtkFG3D2+Drn2k8lg5A==",
+                "area": 31,
+                "icon_id": 1211,
+                "level": 43,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "2Sv+pllzUQJNZnbnRlGVSA==",
+                "area": 7,
+                "icon_id": 25,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "nTFtT6BERgSdJTFTTBjLuA==",
+                "area": 19,
+                "icon_id": 0,
+                "level": 4,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "PljcuNEvw7Gz9jdtu/Lrwg==",
+                "area": 10,
+                "icon_id": 26,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "Cw71tJY4Bi8p594YcsXt/w==",
+                "area": 22,
+                "icon_id": 2,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "GGVgtI9/tsdj4cgAo25ohQ==",
+                "area": 30,
+                "icon_id": 5,
+                "level": 14,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "6t+l0jyropZqfwFjcLkTjg==",
+                "area": 12,
+                "icon_id": 21,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "OOF+9PIc7qm25G6y5a1MnA==",
+                "area": 16,
+                "icon_id": 9,
+                "level": 6,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "bebxqwuztYSAjwVAwz9F+w==",
+                "area": 26,
+                "icon_id": 11,
+                "level": 9,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "6t+l0jyropZqfwFjcLkTjg==",
+                "area": 20,
+                "icon_id": 21,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "r+szSPsAKq3JdBdqbBQxHw==",
+                "area": 11,
+                "icon_id": 3,
+                "level": 10,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "CXlWQwZSuAvROFW3QBVdfg==",
+                "area": 2,
+                "icon_id": 15,
+                "level": 12,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "OUXRVXk5W0/bgFnKbYBRYw==",
+                "area": 8,
+                "icon_id": 26,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "82w4jh/op1gShzDsByX+Hw==",
+                "area": 24,
+                "icon_id": 7,
+                "level": 5,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "xpe3PmgJEjuG9KBsPKrJvw==",
+                "area": 14,
+                "icon_id": 11,
+                "level": 8,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "6btXMDaH8h0ZDsfoPdiQ0g==",
+                "area": 17,
+                "icon_id": 26,
+                "level": 8,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "d16Xlq2FVZWGaj8F9mFJAA==",
+                "area": 9,
+                "icon_id": 26,
+                "level": 2,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "JrwbWoDEESlf1W7bTVV1PQ==",
+                "area": 27,
+                "icon_id": 21,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "LmP9EVNe30EXxbDlihtBOg==",
+                "area": 6,
+                "icon_id": 5,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "QvXJkiaG5IAK2LY9PMOlpg==",
+                "area": 5,
+                "icon_id": 31,
+                "level": 26,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "H7ZI6c1FwKCUUp5lGc/Jzw==",
+                "area": 13,
+                "icon_id": 4,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "NgHMx9/0KHEQxF+LTdKnCw==",
+                "area": 1,
+                "icon_id": 25,
+                "level": 6,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "Y5W4cb5n12ytVQG7V3Ozjw==",
+                "area": 25,
+                "icon_id": 3,
+                "level": 1,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "fCG1K0iXMKwA4P417xVKhg==",
+                "area": 4,
+                "icon_id": 11,
+                "level": 6,
+                "tier": 255,
+                "queue": 0
+            },
+            {
+                "openid": "0bbPmKD/Bf1LpfHbK5HWUw==",
+                "area": 15,
+                "icon_id": 25,
+                "level": 25,
+                "tier": 255,
+                "queue": 0
+            }
+        ]
+    }
+    ```
+    </details>
 ## 2. 战绩相关
 
 1. **查询用户历史战绩**
