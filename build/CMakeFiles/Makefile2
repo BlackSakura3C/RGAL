@@ -65,17 +65,20 @@ CMAKE_BINARY_DIR = E:\Github\RGAL\build
 all: CMakeFiles/RGALE.dir/all
 all: include/glog/all
 all: include/imgui/all
+all: include/json-develop/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: include/glog/preinstall
 preinstall: include/imgui/preinstall
+preinstall: include/json-develop/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/RGALE.dir/clean
 clean: include/glog/clean
 clean: include/imgui/clean
+clean: include/json-develop/clean
 .PHONY : clean
 
 #=============================================================================
@@ -155,6 +158,21 @@ include/imgui/preinstall:
 # Recursive "clean" directory target.
 include/imgui/clean: include/imgui/CMakeFiles/imgui.dir/clean
 .PHONY : include/imgui/clean
+
+#=============================================================================
+# Directory level rules for directory include/json-develop
+
+# Recursive "all" directory target.
+include/json-develop/all:
+.PHONY : include/json-develop/all
+
+# Recursive "preinstall" directory target.
+include/json-develop/preinstall:
+.PHONY : include/json-develop/preinstall
+
+# Recursive "clean" directory target.
+include/json-develop/clean:
+.PHONY : include/json-develop/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/RGALE.dir

@@ -15,6 +15,7 @@
 
 
 #include "glfw3.h"
+#include "nlohmann/json.hpp"
 
 #ifdef USE_IMGUI
 #include "imgui.h"

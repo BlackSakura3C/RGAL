@@ -95,6 +95,12 @@ amore@localhost RiotGameApplication %
 
 **还找到了一个补充的[LOL资源参考网站](https://lol.qq.com/cguide/Guide/PublicResources/Images.html)**、甚至还找到了一些王者荣耀的资源地址：例如`https://www.sapi.run/hero/herolist.json`，注意看这个请求回来的内容`https://www.sapi.run/hero/select.php?hero=孙悟空&type=qq`去站点里面瞅了一眼好像还是有一些内容的
 
+#### 4. 国服战绩查询
+
+0. 遗留问题
+
+目前还没有仔细研究某助手的cookie具体是怎么生成的，反正貌似每次登录都会进行修改吧，解决这个问题国服数据就会有稳定保证了，不需要登录某助手就可以直接获取
+
 待参考内容：
 
 ## 1. 国服（大陆地区不包括台服）

@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/DartConfiguration.tcl.in"
+  "C:/Program Files/CMake/share/cmake-3.24/Modules/ExternalProject.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/FindOpenGL.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
@@ -84,6 +85,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "E:/Github/RGAL/include/glog/src/glog/stl_logging.h.in"
   "E:/Github/RGAL/include/glog/src/glog/vlog_is_on.h.in"
   "E:/Github/RGAL/include/imgui/CMakeLists.txt"
+  "E:/Github/RGAL/include/json-develop/CMakeLists.txt"
+  "E:/Github/RGAL/include/json-develop/cmake/config.cmake.in"
+  "E:/Github/RGAL/include/json-develop/cmake/nlohmann_jsonConfigVersion.cmake.in"
+  "E:/Github/RGAL/include/json-develop/cmake/pkg-config.pc.in"
   "E:/Github/RGAL/input/TestConfig.h.in"
   )
 
@@ -112,6 +117,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "include/glog/glog-modules.cmake"
   "include/glog/CMakeFiles/CMakeDirectoryInformation.cmake"
   "include/imgui/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "include/json-develop/nlohmann_json.pc"
+  "include/json-develop/nlohmann_jsonConfigVersion.cmake"
+  "include/json-develop/nlohmann_jsonConfig.cmake"
+  "include/json-develop/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

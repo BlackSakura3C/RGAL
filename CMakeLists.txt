@@ -31,6 +31,9 @@ if(USE_IMGUI)
     list(APPEND EXTRA_LIBS imgui)
 endif()
 
+add_subdirectory(${INCLUDE_PATH}/json-develop)
+list(APPEND EXTRA_LIBS nlohmann_json)
+
 configure_file(${INPUT_PATH}/TestConfig.h.in TestConfig.h)
 
 # create executable RGAL
