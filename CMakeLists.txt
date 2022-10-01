@@ -34,6 +34,8 @@ endif()
 add_subdirectory(${INCLUDE_PATH}/json-develop)
 list(APPEND EXTRA_LIBS nlohmann_json)
 
+add_subdirectory(${INCLUDE_PATH}/cpr-master)
+
 configure_file(${INPUT_PATH}/TestConfig.h.in TestConfig.h)
 
 # create executable RGAL
