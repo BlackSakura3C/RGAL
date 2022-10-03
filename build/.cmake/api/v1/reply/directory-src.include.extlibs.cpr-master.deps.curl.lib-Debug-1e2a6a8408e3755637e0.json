@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/include/extlibs/cpr-master/deps/curl/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 136,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/include/extlibs/cpr-master/deps/curl/lib/libcurl-d.dylib"
+			],
+			"targetId" : "libcurl::@aa92aa8f287889df38d5",
+			"targetIndex" : 6,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/include/extlibs/cpr-master/deps/curl/lib",
+		"source" : "src/include/extlibs/cpr-master/deps/curl/lib"
+	}
+}

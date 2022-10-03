@@ -2,10 +2,16 @@
 .vscode/
 *.code-workspace
 
+in_output/log/
+
 # ignore mac create the Desktop Service Store file
 *.DS_Store
 
-.log
+# ignore log file
+*.log
 
 # ignore build file
 build/
+
+# ignore the temp json result on mac
+temp.json

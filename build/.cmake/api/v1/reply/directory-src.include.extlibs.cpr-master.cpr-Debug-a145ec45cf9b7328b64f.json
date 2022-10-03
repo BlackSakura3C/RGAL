@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/include/extlibs/cpr-master/cpr/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/include/extlibs/cpr-master/cpr/libcpr.1.9.0.dylib",
+				"src/include/extlibs/cpr-master/cpr/libcpr.1.dylib"
+			],
+			"targetId" : "cpr::@c9711d9319c8fca97b59",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"src/include/extlibs/cpr-master/cpr/libcpr.dylib"
+			],
+			"targetId" : "cpr::@c9711d9319c8fca97b59",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/include/extlibs/cpr-master/cpr",
+		"source" : "src/include/extlibs/cpr-master/cpr"
+	}
+}

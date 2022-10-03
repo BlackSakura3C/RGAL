@@ -1,0 +1,13 @@
+Log file created at: 2022/10/03 15:11:16
+Running on machine: localhost
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20221003 15:11:16.088245 11525636 cn_offline_api.cpp:30] ok
+I20221003 15:11:16.227775 11525636 cn_offline_api.cpp:38] <html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>stgw</center>
+</body>
+</html>
+I20221003 15:11:16.087163 11525636 main.cpp:44] null

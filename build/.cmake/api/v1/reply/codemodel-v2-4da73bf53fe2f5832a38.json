@@ -1,0 +1,374 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-eb977ba9d44739f69124.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/include/extlibs/glog",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.include.extlibs.glog-Debug-76037c7220a49747233f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/include/extlibs/glog",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "src/include/extlibs/imgui",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.include.extlibs.imgui-Debug-192c690dcf92a786295c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "src/include/extlibs/imgui",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/include/extlibs/json-develop",
+					"jsonFile" : "directory-src.include.extlibs.json-develop-Debug-a98061e261b300661c09.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "src/include/extlibs/json-develop"
+				},
+				{
+					"build" : "src/include/extlibs/cpr-master",
+					"childIndexes" : 
+					[
+						6,
+						7,
+						9,
+						10
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.include.extlibs.cpr-master-Debug-10ac0f46e14842a6188f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "src/include/extlibs/cpr-master"
+				},
+				{
+					"build" : "_deps/zlib-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.zlib-build-Debug-4acd50ed3e415f7b229e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "src/include/extlibs/cpr-master/deps/zlib",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/include/extlibs/cpr-master/deps/curl",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.include.extlibs.cpr-master.deps.curl-Debug-9cfb2af2cdbb92734b9f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "src/include/extlibs/cpr-master/deps/curl",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/include/extlibs/cpr-master/deps/curl/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.include.extlibs.cpr-master.deps.curl.lib-Debug-1e2a6a8408e3755637e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 6,
+					"source" : "src/include/extlibs/cpr-master/deps/curl/lib",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/include/extlibs/cpr-master/cpr",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.include.extlibs.cpr-master.cpr-Debug-a145ec45cf9b7328b64f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "src/include/extlibs/cpr-master/cpr",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/include/extlibs/cpr-master/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.include.extlibs.cpr-master.include-Debug-c87365366924166bc12e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "src/include/extlibs/cpr-master/include"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "RGAL",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "glog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "imgui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5,
+						9,
+						10
+					],
+					"name" : "cpr",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "zlib",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7,
+						8
+					],
+					"name" : "CURL",
+					"parentIndex" : 4,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RGALE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RGALE-Debug-61c399b9319346da0e73.json",
+					"name" : "RGALE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "RGAL_BACKEND::@145eef247bfb46b6828c",
+					"jsonFile" : "target-RGAL_BACKEND-Debug-e2d51913d00dbf542180.json",
+					"name" : "RGAL_BACKEND",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "cpr::@c9711d9319c8fca97b59",
+					"jsonFile" : "target-cpr-Debug-d422ef488bd49431c244.json",
+					"name" : "cpr",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glog::@af92c61b853392dfc845",
+					"jsonFile" : "target-glog-Debug-961ea4611a99c533838e.json",
+					"name" : "glog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glogbase::@af92c61b853392dfc845",
+					"jsonFile" : "target-glogbase-Debug-08bc52d10869e3ac180a.json",
+					"name" : "glogbase",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "imgui::@225ae5bd8b6e7489023f",
+					"jsonFile" : "target-imgui-Debug-61beccb9dd01ab7345f5.json",
+					"name" : "imgui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "libcurl::@aa92aa8f287889df38d5",
+					"jsonFile" : "target-libcurl-Debug-954a78c81a9f2197169b.json",
+					"name" : "libcurl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "uninstall::@9f0cc5953bae75fb9cb3",
+					"jsonFile" : "target-uninstall-Debug-653da36c2aa36a6019b3.json",
+					"name" : "uninstall",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "zlib::@c9556b0b6bf47963f9da",
+					"jsonFile" : "target-zlib-Debug-f7dba2403318d1fd532b.json",
+					"name" : "zlib",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Volumes/SSD/Git/RGAL/build",
+		"source" : "/Volumes/SSD/Git/RGAL"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
