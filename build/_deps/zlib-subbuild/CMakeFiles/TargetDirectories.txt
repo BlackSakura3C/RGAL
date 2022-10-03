@@ -1,3 +1,0 @@
-/Volumes/SSD/Git/RGAL/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate.dir
-/Volumes/SSD/Git/RGAL/build/_deps/zlib-subbuild/CMakeFiles/edit_cache.dir
-/Volumes/SSD/Git/RGAL/build/_deps/zlib-subbuild/CMakeFiles/rebuild_cache.dir
