@@ -7,7 +7,7 @@ set(RGAL_INCLUDE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/include)
 aux_source_directory(${RGAL_BACKEND_PATH}/interface BACKEND_API)
 aux_source_directory(${RGAL_INCLUDE_PATH}/interface BACKEND_API_INCLUDE)
 
-set(EXTERNAL_INCLUDE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/include/extlibs)
+set(EXTERNAL_INCLUDE_PATH ${PROJECT_SOURCE_DIR}/deps)
 
 # find_package(glfw3 REQUIRED)
 
@@ -18,7 +18,8 @@ if(USE_GLOG)
     # TODO:是否需要增加开启选项 再议
 endif()
 
-add_subdirectory(${EXTERNAL_INCLUDE_PATH}/glog)
+#include_directories(${PROJECT_SOURCE_DIR}/deps SYSTEM)
+#add_subdirectory(${EXTERNAL_INCLUDE_PATH}/glog)
 list(APPEND EXTRA_LIBS glog)
 list(APPEND EXTRA_LIBS_INCLUDE ${EXTERNAL_INCLUDE_PATH}/glog/src/glog)
 
@@ -29,19 +30,19 @@ if(USE_IMGUI)
     # TODO:是否需要增加开启选项 再议
 endif()
 
-add_subdirectory(${EXTERNAL_INCLUDE_PATH}/imgui)
+# add_subdirectory(${EXTERNAL_INCLUDE_PATH}/imgui)
 list(APPEND EXTRA_LIBS imgui)
 list(APPEND EXTRA_LIBS_INCLUDE ${EXTERNAL_INCLUDE_PATH}/imgui)
 
-add_subdirectory(${EXTERNAL_INCLUDE_PATH}/json-develop)
+# add_subdirectory(${EXTERNAL_INCLUDE_PATH}/json-develop)
 list(APPEND EXTRA_LIBS nlohmann_json)
 list(APPEND EXTRA_LIBS_INCLUDE ${EXTERNAL_INCLUDE_PATH}/json-develop/include/nlohmann)
 
-add_subdirectory(${EXTERNAL_INCLUDE_PATH}/cpr-master)
+# add_subdirectory(${EXTERNAL_INCLUDE_PATH}/cpr-master)
 list(APPEND EXTRA_LIBS cpr)
 list(APPEND EXTRA_LIBS_INCLUDE ${EXTERNAL_INCLUDE_PATH}/cpr-master/include/cpr)
 
-add_library(RGAL_BACKEND ${BACKEND_API} ${BACKEND_API_INCLUDE})
+add_library(RGAL_BACKEND ${BACKEND_API})
 
 target_link_libraries(RGAL_BACKEND PUBLIC ${EXTRA_LIBS})
 

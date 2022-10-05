@@ -14,6 +14,8 @@ set(INPUT_PATH ${PROJECT_SOURCE_DIR}/in_output)
 
 configure_file(${INPUT_PATH}/TestConfig.h.in TestConfig.h)
 
+add_subdirectory(${PROJECT_SOURCE_DIR}/deps)
+
 # link the source code
 add_subdirectory(${PROJECT_SOURCE_DIR}/src)
 set(RGAL_INCLUDE_PATH ${PROJECT_SOURCE_DIR}/src/include)
